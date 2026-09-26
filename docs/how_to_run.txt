@@ -1,0 +1,23 @@
+HƯỚNG DẪN CHẠY NHANH
+=====================
+
+Đầu tiên, vào .venv
+.\.venv\Scripts\activate
+
+0. Cài thư viện (từ thư mục gốc dự án):
+   pip install -r requirements.txt
+
+1. Chạy backend (từ thư mục gốc dự án):
+   uvicorn be.main:app --reload
+   - Hoặc vào thư mục be:  uvicorn main:app --reload
+   - Hoặc:                python scripts/run_backend.py
+   Backend lắng nghe tại http://127.0.0.1:8000
+
+2. Chạy frontend:
+   Mở fe/index.html bằng Live Server (hoặc static server bất kỳ).
+
+3. (Tùy chọn) Kiểm tra môi trường / dataset / weights:
+   python scripts/check_setup.py
+
+Cấu hình (tùy chọn): copy .env.example -> .env và chỉnh các biến
+(MODEL_PATH, API_PORT, OCR_USE_GPU, ...).

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environment
+.env
+
+# Ultralytics / dataset caches
+*.cache
+runs/
+
+# Kaggle dataset package (large; regenerate with the build script)
+dataset.zip
+
+# Model weights produced locally (keep the tracked baseline weights)
+weights/*.onnx
+weights/*.engine
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Kilo local state
+.kilo/worktrees/

@@ -1,0 +1,15 @@
+# YOLO dataset configuration — custom (self-collected) fine-tuning split.
+# Paths are relative to this file's directory (data/custom).
+#
+# NOTE (NEEDS MANUAL REVIEW):
+#   - images/ has data (train 518, val 148, test 74) but labels/ is currently
+#     empty, so this split cannot be trained until annotations are added.
+#   - Single class assumed for the licence-plate fine-tune.
+
+train: images/train
+val: images/val
+test: images/test
+
+nc: 1
+names:
+  - license_plate

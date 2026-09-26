@@ -1,0 +1,21 @@
+# Core API
+fastapi
+uvicorn
+python-multipart
+
+# AI / CV inference
+ultralytics
+easyocr
+opencv-python
+numpy
+
+# Deep-learning runtime
+torch
+torchvision
+
+# Configuration
+python-dotenv
+
+# Development / tests
+pytest
+httpx

@@ -1,0 +1,20 @@
+# YOLO dataset configuration — Kaggle split (detection).
+# Paths are relative to this file's directory (data/kaggle).
+#
+# Labels were converted from polygon (segmentation) to bbox, then MERGED to a
+# single class (all object ids set to 0) because the original two-class split
+# was inconsistent between the merged sources.
+#
+# Backups:
+#   labels_polygon/        original polygon labels (2 classes, source of truth)
+#   labels_2class_backup/  bbox labels before the 1-class merge
+#
+# Single class:
+#   0 = license_plate
+
+train: images/train
+val: images/val
+
+nc: 1
+names:
+  0: license_plate

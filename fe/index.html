@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhận Diện Biển Số Web API</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col items-center py-12">
+    <div class="bg-white p-8 rounded-2xl shadow-xl w-full max-w-xl border border-gray-100">
+        <h1 class="text-3xl font-extrabold text-center text-indigo-600 mb-2">SCAN BIỂN SỐ AI</h1>
+        <p class="text-center text-gray-500 mb-8 text-sm">Hệ thống nhận diện biển số tự động</p>
+        
+        <div class="mb-6">
+            <label class="block mb-2 text-sm font-semibold text-gray-700">Tải ảnh xe lên đây:</label>
+            <input type="file" id="imageInput" accept="image/*" 
+                   class="block w-full text-sm text-gray-500 
+                          file:mr-4 file:py-3 file:px-4 
+                          file:rounded-lg file:border-0 
+                          file:text-sm file:font-bold 
+                          file:bg-indigo-50 file:text-indigo-700 
+                          hover:file:bg-indigo-100 transition-colors cursor-pointer border rounded-lg">
+        </div>
+
+        <div id="previewContainer" class="hidden mb-6">
+            <div class="p-2 border-2 border-dashed border-gray-300 rounded-lg bg-gray-50">
+                <img id="imagePreview" class="max-h-64 w-auto mx-auto rounded shadow-sm object-contain">
+            </div>
+        </div>
+
+        <button onclick="uploadImage()" id="btnSubmit" 
+                class="w-full bg-indigo-600 text-white font-bold py-3 px-4 rounded-lg hover:bg-indigo-700 shadow-lg hover:shadow-indigo-500/30 transition-all duration-300">
+            QUÉT BIỂN SỐ NGAY
+        </button>
+
+        <div id="resultArea" class="hidden mt-8">
+            <div class="flex items-center mb-4">
+                <div class="h-px bg-gray-200 flex-1"></div>
+                <span class="px-3 text-sm font-semibold text-gray-400">KẾT QUẢ TRẢ VỀ</span>
+                <div class="h-px bg-gray-200 flex-1"></div>
+            </div>
+            
+            <div id="resultsList" class="space-y-3">
+                </div>
+        </div>
+    </div>
+
+    <script>
+        // 1. Logic hiển thị ảnh preview khi người dùng vừa chọn file
+        document.getElementById('imageInput').addEventListener('change', function (evt) {
+            const file = this.files[0];
+            if (file) {
+                document.getElementById('imagePreview').src = URL.createObjectURL(file);
+                document.getElementById('previewContainer').classList.remove('hidden');
+                // Ẩn kết quả cũ đi khi chọn ảnh mới
+                document.getElementById('resultArea').classList.add('hidden');
+            }
+        });
+
+        // 2. Logic gửi ảnh xuống Backend và nhận JSON
+        async function uploadImage() {
+            const fileInput = document.getElementById('imageInput');
+            const btn = document.getElementById('btnSubmit');
+            const resultArea = document.getElementById('resultArea');
+            const resultsList = document.getElementById('resultsList');
+
+            if (fileInput.files.length === 0) {
+                alert("Vui lòng chọn một tấm ảnh trước!");
+                return;
+            }
+
+            // Đổi trạng thái UI báo hiệu đang load
+            btn.innerText = "ĐANG XỬ LÝ OCR...";
+            btn.classList.add("animate-pulse", "bg-indigo-400");
+            btn.disabled = true;
+            resultsList.innerHTML = ""; // Xóa dữ liệu cũ
+
+            const formData = new FormData();
+            formData.append("file", fileInput.files[0]);
+
+            try {
+                // Gọi API
+                const response = await fetch('http://127.0.0.1:8000/detect', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (!response.ok) throw new Error("Server trả về lỗi");
+
+                const data = await response.json(); // Map khớp với {"results": [...]}
+
+                resultArea.classList.remove('hidden');
+
+                if (data.results && data.results.length > 0) {
+                    data.results.forEach((res, index) => {
+                        // Xử lý text biển số, nếu trống thì báo không đọc được
+                        const plateText = res.plate_number ? res.plate_number : "KHÔNG ĐỌC ĐƯỢC CHỮ";
+                        const confidencePercent = (res.confidence * 100).toFixed(2);
+
+                        // Thẻ HTML hiển thị từng biển số
+                        resultsList.innerHTML += `
+                            <div class="p-5 bg-indigo-50/50 border border-indigo-100 rounded-xl flex flex-col items-center justify-center relative overflow-hidden group hover:border-indigo-300 transition-all">
+                                <span class="absolute top-2 left-2 text-xs font-bold text-indigo-300">#${index + 1}</span>
+                                <p class="text-sm text-gray-500 font-medium mb-1">Nội dung biển số:</p>
+                                <p class="text-3xl font-black text-indigo-800 tracking-widest">${plateText}</p>
+                                <div class="mt-3 bg-white px-3 py-1 rounded-full border border-gray-200 shadow-sm">
+                                    <p class="text-xs text-gray-500 font-semibold">Độ tin cậy AI: <span class="text-green-600">${confidencePercent}%</span></p>
+                                </div>
+                            </div>
+                        `;
+                    });
+                } else {
+                    // Nếu YOLO không tìm thấy bất kỳ bbox nào (data.results rỗng)
+                    resultsList.innerHTML = `
+                        <div class="p-4 bg-red-50 border border-red-200 rounded-lg text-center">
+                            <p class="text-red-600 font-semibold">Không tìm thấy biển số xe nào trong ảnh!</p>
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                console.error("Lỗi:", error);
+                resultsList.innerHTML = `
+                    <div class="p-4 bg-red-50 border border-red-200 rounded-lg text-center">
+                        <p class="text-red-600 font-semibold">Lỗi kết nối tới Server. Hãy chắc chắn main.py đang chạy!</p>
+                    </div>
+                `;
+                resultArea.classList.remove('hidden');
+            } finally {
+                // Khôi phục nút bấm sau khi xử lý xong
+                btn.innerText = "QUÉT BIỂN SỐ NGAY";
+                btn.classList.remove("animate-pulse", "bg-indigo-400");
+                btn.disabled = false;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,3825 @@
+[
+  {
+    "case_id": "002-0",
+    "filename": "img_0026_png.rf.93031d027a07fa267a456e2da828cddf.jpg",
+    "variant": "raw_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                163.97206345721858,
+                255.02114201041178
+              ],
+              [
+                696.5596778207546,
+                346.3285735218527
+              ],
+              [
+                649.0279365427814,
+                547.9788579895882
+              ],
+              [
+                116.44032217924541,
+                456.6714264781473
+              ]
+            ],
+            "text": "Z3",
+            "confidence": 0.3427870658298685
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "Z3"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "Z3"
+      ],
+      "normalized_lines": [
+        "Z3"
+      ],
+      "corrected_lines": [
+        "Z3"
+      ],
+      "corrections": [],
+      "formatted_text": "Z3",
+      "plate_number": "",
+      "format_status": "unrecognized",
+      "text_verified": false,
+      "reason": "incomplete_or_unsupported_structure"
+    },
+    "input_paths": [
+      "cases/002-0/inputs/raw_whole-whole.png"
+    ],
+    "result_file": "runs/002-0--raw_whole.json",
+    "log_file": "runs/002-0--raw_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 0,
+        "free": 1,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/002-0--raw_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "002-0",
+    "filename": "img_0026_png.rf.93031d027a07fa267a456e2da828cddf.jpg",
+    "variant": "gray_up_whole",
+    "execution_status": "native_crash",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [],
+        "readtext_completed": false,
+        "stage": "text_detection"
+      }
+    ],
+    "raw_lines": null,
+    "format_trace": null,
+    "input_paths": [
+      "cases/002-0/inputs/gray_up_whole-whole.png"
+    ],
+    "result_file": "runs/002-0--gray_up_whole.json",
+    "log_file": "runs/002-0--gray_up_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 0,
+        "free": 0,
+        "detector_completed": false
+      }
+    ],
+    "ocr_overlay_paths": []
+  },
+  {
+    "case_id": "002-0",
+    "filename": "img_0026_png.rf.93031d027a07fa267a456e2da828cddf.jpg",
+    "variant": "no_deskew_whole",
+    "execution_status": "native_crash",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [],
+        "readtext_completed": false,
+        "stage": "text_detection"
+      }
+    ],
+    "raw_lines": null,
+    "format_trace": null,
+    "input_paths": [
+      "cases/002-0/inputs/no_deskew_whole-whole.png"
+    ],
+    "result_file": "runs/002-0--no_deskew_whole.json",
+    "log_file": "runs/002-0--no_deskew_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 0,
+        "free": 0,
+        "detector_completed": false
+      }
+    ],
+    "ocr_overlay_paths": []
+  },
+  {
+    "case_id": "002-0",
+    "filename": "img_0026_png.rf.93031d027a07fa267a456e2da828cddf.jpg",
+    "variant": "no_clahe_whole",
+    "execution_status": "native_crash",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [],
+        "readtext_completed": false,
+        "stage": "text_detection"
+      }
+    ],
+    "raw_lines": null,
+    "format_trace": null,
+    "input_paths": [
+      "cases/002-0/inputs/no_clahe_whole-whole.png"
+    ],
+    "result_file": "runs/002-0--no_clahe_whole.json",
+    "log_file": "runs/002-0--no_clahe_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 0,
+        "free": 0,
+        "detector_completed": false
+      }
+    ],
+    "ocr_overlay_paths": []
+  },
+  {
+    "case_id": "002-0",
+    "filename": "img_0026_png.rf.93031d027a07fa267a456e2da828cddf.jpg",
+    "variant": "current_whole",
+    "execution_status": "native_crash",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [],
+        "readtext_completed": false,
+        "stage": "text_detection"
+      }
+    ],
+    "raw_lines": null,
+    "format_trace": null,
+    "input_paths": [
+      "cases/002-0/inputs/current_whole-whole.png"
+    ],
+    "result_file": "runs/002-0--current_whole.json",
+    "log_file": "runs/002-0--current_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 0,
+        "free": 0,
+        "detector_completed": false
+      }
+    ],
+    "ocr_overlay_paths": []
+  },
+  {
+    "case_id": "006-0",
+    "filename": "img_0045_png.rf.a5bb135b5b8d83e6cc28b58e6713474d.jpg",
+    "variant": "raw_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                164,
+                386
+              ],
+              [
+                240,
+                386
+              ],
+              [
+                240,
+                434
+              ],
+              [
+                164,
+                434
+              ]
+            ],
+            "text": "P7",
+            "confidence": 0.9988085480014578
+          },
+          {
+            "bbox": [
+              [
+                252.30513841808187,
+                -6.918418644056101
+              ],
+              [
+                370.9973553830435,
+                13.874060698191448
+              ],
+              [
+                365.69486158191813,
+                40.9184186440561
+              ],
+              [
+                246.00264461695647,
+                19.12593930180855
+              ]
+            ],
+            "text": "HONDA",
+            "confidence": 0.9741520265331246
+          },
+          {
+            "bbox": [
+              [
+                155.94963908157465,
+                54.03451403993462
+              ],
+              [
+                441.4324662425816,
+                102.77637765992505
+              ],
+              [
+                411.0503609184254,
+                237.96548596006537
+              ],
+              [
+                125.56753375741843,
+                189.22362234007497
+              ]
+            ],
+            "text": "29-PI",
+            "confidence": 0.6425398940980508
+          },
+          {
+            "bbox": [
+              [
+                107.97310377030676,
+                170.0293159803684
+              ],
+              [
+                461.6290687128966,
+                235.36462707332925
+              ],
+              [
+                426.02689622969325,
+                380.97068401963156
+              ],
+              [
+                72.37093128710342,
+                315.63537292667075
+              ]
+            ],
+            "text": "239.647",
+            "confidence": 0.6279456806958664
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "HONDA",
+      "29-PI",
+      "239.647",
+      "P7"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "HONDA",
+        "29-PI",
+        "239.647",
+        "P7"
+      ],
+      "normalized_lines": [
+        "HONDA",
+        "29PI",
+        "239647",
+        "P7"
+      ],
+      "corrected_lines": [
+        "HONDA",
+        "29PI",
+        "239647",
+        "P7"
+      ],
+      "corrections": [],
+      "formatted_text": "HONDA 29PI 239647 P7",
+      "plate_number": "",
+      "format_status": "unrecognized",
+      "text_verified": false,
+      "reason": "incomplete_or_unsupported_structure"
+    },
+    "input_paths": [
+      "cases/006-0/inputs/raw_whole-whole.png"
+    ],
+    "result_file": "runs/006-0--raw_whole.json",
+    "log_file": "runs/006-0--raw_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 1,
+        "free": 3,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/006-0--raw_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "006-0",
+    "filename": "img_0045_png.rf.a5bb135b5b8d83e6cc28b58e6713474d.jpg",
+    "variant": "gray_up_whole",
+    "execution_status": "native_crash",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [],
+        "readtext_completed": false,
+        "stage": "text_detection"
+      }
+    ],
+    "raw_lines": null,
+    "format_trace": null,
+    "input_paths": [
+      "cases/006-0/inputs/gray_up_whole-whole.png"
+    ],
+    "result_file": "runs/006-0--gray_up_whole.json",
+    "log_file": "runs/006-0--gray_up_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 0,
+        "free": 0,
+        "detector_completed": false
+      }
+    ],
+    "ocr_overlay_paths": []
+  },
+  {
+    "case_id": "006-0",
+    "filename": "img_0045_png.rf.a5bb135b5b8d83e6cc28b58e6713474d.jpg",
+    "variant": "no_deskew_whole",
+    "execution_status": "native_crash",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [],
+        "readtext_completed": false,
+        "stage": "text_detection"
+      }
+    ],
+    "raw_lines": null,
+    "format_trace": null,
+    "input_paths": [
+      "cases/006-0/inputs/no_deskew_whole-whole.png"
+    ],
+    "result_file": "runs/006-0--no_deskew_whole.json",
+    "log_file": "runs/006-0--no_deskew_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 0,
+        "free": 0,
+        "detector_completed": false
+      }
+    ],
+    "ocr_overlay_paths": []
+  },
+  {
+    "case_id": "006-0",
+    "filename": "img_0045_png.rf.a5bb135b5b8d83e6cc28b58e6713474d.jpg",
+    "variant": "no_clahe_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                301,
+                66
+              ],
+              [
+                890,
+                66
+              ],
+              [
+                890,
+                339
+              ],
+              [
+                301,
+                339
+              ]
+            ],
+            "text": "29-PI",
+            "confidence": 0.7537815077363295
+          },
+          {
+            "bbox": [
+              [
+                250,
+                334
+              ],
+              [
+                964,
+                334
+              ],
+              [
+                964,
+                600
+              ],
+              [
+                250,
+                600
+              ]
+            ],
+            "text": "239.64",
+            "confidence": 0.9874180883108962
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "29-PI",
+      "239.64"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "29-PI",
+        "239.64"
+      ],
+      "normalized_lines": [
+        "29PI",
+        "23964"
+      ],
+      "corrected_lines": [
+        "29PI",
+        "23964"
+      ],
+      "corrections": [],
+      "formatted_text": "29PI-239.64",
+      "plate_number": "29PI-239.64",
+      "format_status": "structured",
+      "text_verified": false
+    },
+    "input_paths": [
+      "cases/006-0/inputs/no_clahe_whole-whole.png"
+    ],
+    "result_file": "runs/006-0--no_clahe_whole.json",
+    "log_file": "runs/006-0--no_clahe_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 2,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/006-0--no_clahe_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "006-0",
+    "filename": "img_0045_png.rf.a5bb135b5b8d83e6cc28b58e6713474d.jpg",
+    "variant": "current_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                300,
+                67
+              ],
+              [
+                891,
+                67
+              ],
+              [
+                891,
+                340
+              ],
+              [
+                300,
+                340
+              ]
+            ],
+            "text": "29-P1",
+            "confidence": 0.6135150398532914
+          },
+          {
+            "bbox": [
+              [
+                248,
+                334
+              ],
+              [
+                966,
+                334
+              ],
+              [
+                966,
+                602
+              ],
+              [
+                248,
+                602
+              ]
+            ],
+            "text": "239.64",
+            "confidence": 0.8209154169773928
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "29-P1",
+      "239.64"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "29-P1",
+        "239.64"
+      ],
+      "normalized_lines": [
+        "29P1",
+        "23964"
+      ],
+      "corrected_lines": [
+        "29P1",
+        "23964"
+      ],
+      "corrections": [],
+      "formatted_text": "29-P1 239.64",
+      "plate_number": "29-P1 239.64",
+      "format_status": "structured",
+      "text_verified": false
+    },
+    "input_paths": [
+      "cases/006-0/inputs/current_whole-whole.png"
+    ],
+    "result_file": "runs/006-0--current_whole.json",
+    "log_file": "runs/006-0--current_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 2,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/006-0--current_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "014-0",
+    "filename": "img_0100_png.rf.4336ed756123d4d7521a8aea4aa65c88.jpg",
+    "variant": "raw_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                34,
+                25
+              ],
+              [
+                143,
+                25
+              ],
+              [
+                143,
+                85
+              ],
+              [
+                34,
+                85
+              ]
+            ],
+            "text": "59-MA",
+            "confidence": 0.9242586430401326
+          },
+          {
+            "bbox": [
+              [
+                21,
+                67
+              ],
+              [
+                146,
+                67
+              ],
+              [
+                146,
+                129
+              ],
+              [
+                21,
+                129
+              ]
+            ],
+            "text": "098.57",
+            "confidence": 0.554920677352269
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "59-MA",
+      "098.57"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "59-MA",
+        "098.57"
+      ],
+      "normalized_lines": [
+        "59MA",
+        "09857"
+      ],
+      "corrected_lines": [
+        "59MA",
+        "09857"
+      ],
+      "corrections": [],
+      "formatted_text": "59MA-098.57",
+      "plate_number": "59MA-098.57",
+      "format_status": "structured",
+      "text_verified": false
+    },
+    "input_paths": [
+      "cases/014-0/inputs/raw_whole-whole.png"
+    ],
+    "result_file": "runs/014-0--raw_whole.json",
+    "log_file": "runs/014-0--raw_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 2,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/014-0--raw_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "014-0",
+    "filename": "img_0100_png.rf.4336ed756123d4d7521a8aea4aa65c88.jpg",
+    "variant": "gray_up_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                149,
+                4
+              ],
+              [
+                228,
+                4
+              ],
+              [
+                228,
+                29
+              ],
+              [
+                149,
+                29
+              ]
+            ],
+            "text": "TODA",
+            "confidence": 0.3775753676891327
+          },
+          {
+            "bbox": [
+              [
+                77,
+                53
+              ],
+              [
+                281,
+                53
+              ],
+              [
+                281,
+                165
+              ],
+              [
+                77,
+                165
+              ]
+            ],
+            "text": "59-NA",
+            "confidence": 0.7084263580251621
+          },
+          {
+            "bbox": [
+              [
+                43,
+                135
+              ],
+              [
+                293,
+                135
+              ],
+              [
+                293,
+                260
+              ],
+              [
+                43,
+                260
+              ]
+            ],
+            "text": "098.57",
+            "confidence": 0.9902672701917293
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "TODA",
+      "59-NA",
+      "098.57"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "TODA",
+        "59-NA",
+        "098.57"
+      ],
+      "normalized_lines": [
+        "TODA",
+        "59NA",
+        "09857"
+      ],
+      "corrected_lines": [
+        "TODA",
+        "59NA",
+        "09857"
+      ],
+      "corrections": [],
+      "formatted_text": "TODA 59NA 09857",
+      "plate_number": "",
+      "format_status": "unrecognized",
+      "text_verified": false,
+      "reason": "incomplete_or_unsupported_structure"
+    },
+    "input_paths": [
+      "cases/014-0/inputs/gray_up_whole-whole.png"
+    ],
+    "result_file": "runs/014-0--gray_up_whole.json",
+    "log_file": "runs/014-0--gray_up_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 3,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/014-0--gray_up_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "014-0",
+    "filename": "img_0100_png.rf.4336ed756123d4d7521a8aea4aa65c88.jpg",
+    "variant": "no_deskew_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                74,
+                52
+              ],
+              [
+                285,
+                52
+              ],
+              [
+                285,
+                167
+              ],
+              [
+                74,
+                167
+              ]
+            ],
+            "text": "59-MA",
+            "confidence": 0.9643403516663205
+          },
+          {
+            "bbox": [
+              [
+                41,
+                133
+              ],
+              [
+                294,
+                133
+              ],
+              [
+                294,
+                260
+              ],
+              [
+                41,
+                260
+              ]
+            ],
+            "text": "098.57",
+            "confidence": 0.9580647075439921
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "59-MA",
+      "098.57"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "59-MA",
+        "098.57"
+      ],
+      "normalized_lines": [
+        "59MA",
+        "09857"
+      ],
+      "corrected_lines": [
+        "59MA",
+        "09857"
+      ],
+      "corrections": [],
+      "formatted_text": "59MA-098.57",
+      "plate_number": "59MA-098.57",
+      "format_status": "structured",
+      "text_verified": false
+    },
+    "input_paths": [
+      "cases/014-0/inputs/no_deskew_whole-whole.png"
+    ],
+    "result_file": "runs/014-0--no_deskew_whole.json",
+    "log_file": "runs/014-0--no_deskew_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 2,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/014-0--no_deskew_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "014-0",
+    "filename": "img_0100_png.rf.4336ed756123d4d7521a8aea4aa65c88.jpg",
+    "variant": "no_clahe_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                147,
+                4
+              ],
+              [
+                226,
+                4
+              ],
+              [
+                226,
+                28
+              ],
+              [
+                147,
+                28
+              ]
+            ],
+            "text": "JOD",
+            "confidence": 0.15884420768630383
+          },
+          {
+            "bbox": [
+              [
+                74,
+                52
+              ],
+              [
+                285,
+                52
+              ],
+              [
+                285,
+                167
+              ],
+              [
+                74,
+                167
+              ]
+            ],
+            "text": "59-MA",
+            "confidence": 0.6770429469774839
+          },
+          {
+            "bbox": [
+              [
+                44,
+                136
+              ],
+              [
+                291,
+                136
+              ],
+              [
+                291,
+                256
+              ],
+              [
+                44,
+                256
+              ]
+            ],
+            "text": "098.57",
+            "confidence": 0.9473521183190042
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "JOD",
+      "59-MA",
+      "098.57"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "JOD",
+        "59-MA",
+        "098.57"
+      ],
+      "normalized_lines": [
+        "JOD",
+        "59MA",
+        "09857"
+      ],
+      "corrected_lines": [
+        "JOD",
+        "59MA",
+        "09857"
+      ],
+      "corrections": [],
+      "formatted_text": "JOD 59MA 09857",
+      "plate_number": "",
+      "format_status": "unrecognized",
+      "text_verified": false,
+      "reason": "incomplete_or_unsupported_structure"
+    },
+    "input_paths": [
+      "cases/014-0/inputs/no_clahe_whole-whole.png"
+    ],
+    "result_file": "runs/014-0--no_clahe_whole.json",
+    "log_file": "runs/014-0--no_clahe_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 3,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/014-0--no_clahe_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "014-0",
+    "filename": "img_0100_png.rf.4336ed756123d4d7521a8aea4aa65c88.jpg",
+    "variant": "current_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                73,
+                52
+              ],
+              [
+                285,
+                52
+              ],
+              [
+                285,
+                166
+              ],
+              [
+                73,
+                166
+              ]
+            ],
+            "text": "59-MA",
+            "confidence": 0.8266509879332744
+          },
+          {
+            "bbox": [
+              [
+                42,
+                135
+              ],
+              [
+                292,
+                135
+              ],
+              [
+                292,
+                255
+              ],
+              [
+                42,
+                255
+              ]
+            ],
+            "text": "098.57",
+            "confidence": 0.7643057418097685
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "59-MA",
+      "098.57"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "59-MA",
+        "098.57"
+      ],
+      "normalized_lines": [
+        "59MA",
+        "09857"
+      ],
+      "corrected_lines": [
+        "59MA",
+        "09857"
+      ],
+      "corrections": [],
+      "formatted_text": "59MA-098.57",
+      "plate_number": "59MA-098.57",
+      "format_status": "structured",
+      "text_verified": false
+    },
+    "input_paths": [
+      "cases/014-0/inputs/current_whole-whole.png"
+    ],
+    "result_file": "runs/014-0--current_whole.json",
+    "log_file": "runs/014-0--current_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 2,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/014-0--current_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "024-0",
+    "filename": "img_0204_png.rf.daa5bcc370531d10e983115bc000a4d6.jpg",
+    "variant": "raw_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                78.45878435257998,
+                28.013322357373557
+              ],
+              [
+                381.86184695108375,
+                164.2621044878266
+              ],
+              [
+                339.54121564742,
+                252.98667764262643
+              ],
+              [
+                35.13815304891624,
+                115.7378955121734
+              ]
+            ],
+            "text": "51K.922.52",
+            "confidence": 0.8451812702695385
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "51K.922.52"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "51K.922.52"
+      ],
+      "normalized_lines": [
+        "51K92252"
+      ],
+      "corrected_lines": [
+        "51K92252"
+      ],
+      "corrections": [],
+      "formatted_text": "51K-922.52",
+      "plate_number": "51K-922.52",
+      "format_status": "structured",
+      "text_verified": false
+    },
+    "input_paths": [
+      "cases/024-0/inputs/raw_whole-whole.png"
+    ],
+    "result_file": "runs/024-0--raw_whole.json",
+    "log_file": "runs/024-0--raw_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 0,
+        "free": 1,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/024-0--raw_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "024-0",
+    "filename": "img_0204_png.rf.daa5bcc370531d10e983115bc000a4d6.jpg",
+    "variant": "gray_up_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                162.4547293569598,
+                70.00708024295243
+              ],
+              [
+                754.652824295263,
+                338.19725774880874
+              ],
+              [
+                675.5452706430402,
+                496.99291975704756
+              ],
+              [
+                83.34717570473703,
+                229.8027422511913
+              ]
+            ],
+            "text": "51K-922.52",
+            "confidence": 0.5178860449071493
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "51K-922.52"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "51K-922.52"
+      ],
+      "normalized_lines": [
+        "51K92252"
+      ],
+      "corrected_lines": [
+        "51K92252"
+      ],
+      "corrections": [],
+      "formatted_text": "51K-922.52",
+      "plate_number": "51K-922.52",
+      "format_status": "structured",
+      "text_verified": false
+    },
+    "input_paths": [
+      "cases/024-0/inputs/gray_up_whole-whole.png"
+    ],
+    "result_file": "runs/024-0--gray_up_whole.json",
+    "log_file": "runs/024-0--gray_up_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 0,
+        "free": 1,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/024-0--gray_up_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "024-0",
+    "filename": "img_0204_png.rf.daa5bcc370531d10e983115bc000a4d6.jpg",
+    "variant": "no_deskew_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                161.45331034240795,
+                71.00711714846477
+              ],
+              [
+                755.6721699585795,
+                336.3038683460135
+              ],
+              [
+                676.5466896575921,
+                496.9928828515352
+              ],
+              [
+                82.32783004142046,
+                230.69613165398653
+              ]
+            ],
+            "text": "51K-922.52",
+            "confidence": 0.4896035230477333
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "51K-922.52"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "51K-922.52"
+      ],
+      "normalized_lines": [
+        "51K92252"
+      ],
+      "corrected_lines": [
+        "51K92252"
+      ],
+      "corrections": [],
+      "formatted_text": "51K-922.52",
+      "plate_number": "51K-922.52",
+      "format_status": "structured",
+      "text_verified": false
+    },
+    "input_paths": [
+      "cases/024-0/inputs/no_deskew_whole-whole.png"
+    ],
+    "result_file": "runs/024-0--no_deskew_whole.json",
+    "log_file": "runs/024-0--no_deskew_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 0,
+        "free": 1,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/024-0--no_deskew_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "024-0",
+    "filename": "img_0204_png.rf.daa5bcc370531d10e983115bc000a4d6.jpg",
+    "variant": "no_clahe_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                162.4547293569598,
+                70.00708024295243
+              ],
+              [
+                754.652824295263,
+                338.19725774880874
+              ],
+              [
+                675.5452706430402,
+                496.99291975704756
+              ],
+              [
+                83.34717570473703,
+                229.8027422511913
+              ]
+            ],
+            "text": "51K-922.52",
+            "confidence": 0.5178860449071493
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "51K-922.52"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "51K-922.52"
+      ],
+      "normalized_lines": [
+        "51K92252"
+      ],
+      "corrected_lines": [
+        "51K92252"
+      ],
+      "corrections": [],
+      "formatted_text": "51K-922.52",
+      "plate_number": "51K-922.52",
+      "format_status": "structured",
+      "text_verified": false
+    },
+    "input_paths": [
+      "cases/024-0/inputs/no_clahe_whole-whole.png"
+    ],
+    "result_file": "runs/024-0--no_clahe_whole.json",
+    "log_file": "runs/024-0--no_clahe_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 0,
+        "free": 1,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/024-0--no_clahe_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "024-0",
+    "filename": "img_0204_png.rf.daa5bcc370531d10e983115bc000a4d6.jpg",
+    "variant": "current_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                161.45331034240795,
+                71.00711714846477
+              ],
+              [
+                755.6721699585795,
+                336.3038683460135
+              ],
+              [
+                676.5466896575921,
+                496.9928828515352
+              ],
+              [
+                82.32783004142046,
+                230.69613165398653
+              ]
+            ],
+            "text": "51K-922.52",
+            "confidence": 0.4896035230477333
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "51K-922.52"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "51K-922.52"
+      ],
+      "normalized_lines": [
+        "51K92252"
+      ],
+      "corrected_lines": [
+        "51K92252"
+      ],
+      "corrections": [],
+      "formatted_text": "51K-922.52",
+      "plate_number": "51K-922.52",
+      "format_status": "structured",
+      "text_verified": false
+    },
+    "input_paths": [
+      "cases/024-0/inputs/current_whole-whole.png"
+    ],
+    "result_file": "runs/024-0--current_whole.json",
+    "log_file": "runs/024-0--current_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 0,
+        "free": 1,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/024-0--current_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "052-0",
+    "filename": "img_0559_png.rf.9b572f712201a83b067ecc6c693a93a1.jpg",
+    "variant": "raw_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                13,
+                7
+              ],
+              [
+                51,
+                7
+              ],
+              [
+                51,
+                23
+              ],
+              [
+                13,
+                23
+              ]
+            ],
+            "text": "63-84",
+            "confidence": 0.6134046741851352
+          },
+          {
+            "bbox": [
+              [
+                11,
+                21
+              ],
+              [
+                55,
+                21
+              ],
+              [
+                55,
+                39
+              ],
+              [
+                11,
+                39
+              ]
+            ],
+            "text": "L89.57",
+            "confidence": 0.7845788441705428
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "63-84",
+      "L89.57"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "63-84",
+        "L89.57"
+      ],
+      "normalized_lines": [
+        "6384",
+        "L8957"
+      ],
+      "corrected_lines": [
+        "6384",
+        "L8957"
+      ],
+      "corrections": [],
+      "formatted_text": "6384 L8957",
+      "plate_number": "",
+      "format_status": "unrecognized",
+      "text_verified": false,
+      "reason": "incomplete_or_unsupported_structure"
+    },
+    "input_paths": [
+      "cases/052-0/inputs/raw_whole-whole.png"
+    ],
+    "result_file": "runs/052-0--raw_whole.json",
+    "log_file": "runs/052-0--raw_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 2,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/052-0--raw_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "052-0",
+    "filename": "img_0559_png.rf.9b572f712201a83b067ecc6c693a93a1.jpg",
+    "variant": "gray_up_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                26,
+                14
+              ],
+              [
+                100,
+                14
+              ],
+              [
+                100,
+                46
+              ],
+              [
+                26,
+                46
+              ]
+            ],
+            "text": "63-84",
+            "confidence": 0.7833464305437563
+          },
+          {
+            "bbox": [
+              [
+                19,
+                41
+              ],
+              [
+                109,
+                41
+              ],
+              [
+                109,
+                77
+              ],
+              [
+                19,
+                77
+              ]
+            ],
+            "text": "L8957",
+            "confidence": 0.9714165955248355
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "63-84",
+      "L8957"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "63-84",
+        "L8957"
+      ],
+      "normalized_lines": [
+        "6384",
+        "L8957"
+      ],
+      "corrected_lines": [
+        "6384",
+        "L8957"
+      ],
+      "corrections": [],
+      "formatted_text": "6384 L8957",
+      "plate_number": "",
+      "format_status": "unrecognized",
+      "text_verified": false,
+      "reason": "incomplete_or_unsupported_structure"
+    },
+    "input_paths": [
+      "cases/052-0/inputs/gray_up_whole-whole.png"
+    ],
+    "result_file": "runs/052-0--gray_up_whole.json",
+    "log_file": "runs/052-0--gray_up_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 2,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/052-0--gray_up_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "052-0",
+    "filename": "img_0559_png.rf.9b572f712201a83b067ecc6c693a93a1.jpg",
+    "variant": "no_deskew_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                24,
+                14
+              ],
+              [
+                102,
+                14
+              ],
+              [
+                102,
+                46
+              ],
+              [
+                24,
+                46
+              ]
+            ],
+            "text": "63-80",
+            "confidence": 0.4162447069023662
+          },
+          {
+            "bbox": [
+              [
+                17,
+                41
+              ],
+              [
+                107,
+                41
+              ],
+              [
+                107,
+                77
+              ],
+              [
+                17,
+                77
+              ]
+            ],
+            "text": "L8957",
+            "confidence": 0.9764276432511658
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "63-80",
+      "L8957"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "63-80",
+        "L8957"
+      ],
+      "normalized_lines": [
+        "6380",
+        "L8957"
+      ],
+      "corrected_lines": [
+        "6380",
+        "L8957"
+      ],
+      "corrections": [],
+      "formatted_text": "6380 L8957",
+      "plate_number": "",
+      "format_status": "unrecognized",
+      "text_verified": false,
+      "reason": "incomplete_or_unsupported_structure"
+    },
+    "input_paths": [
+      "cases/052-0/inputs/no_deskew_whole-whole.png"
+    ],
+    "result_file": "runs/052-0--no_deskew_whole.json",
+    "log_file": "runs/052-0--no_deskew_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 2,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/052-0--no_deskew_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "052-0",
+    "filename": "img_0559_png.rf.9b572f712201a83b067ecc6c693a93a1.jpg",
+    "variant": "no_clahe_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                24,
+                14
+              ],
+              [
+                100,
+                14
+              ],
+              [
+                100,
+                46
+              ],
+              [
+                24,
+                46
+              ]
+            ],
+            "text": "63-84",
+            "confidence": 0.7368871333799989
+          },
+          {
+            "bbox": [
+              [
+                19,
+                41
+              ],
+              [
+                109,
+                41
+              ],
+              [
+                109,
+                77
+              ],
+              [
+                19,
+                77
+              ]
+            ],
+            "text": "L89521",
+            "confidence": 0.6377845385892698
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "63-84",
+      "L89521"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "63-84",
+        "L89521"
+      ],
+      "normalized_lines": [
+        "6384",
+        "L89521"
+      ],
+      "corrected_lines": [
+        "6384",
+        "L89521"
+      ],
+      "corrections": [],
+      "formatted_text": "6384 L89521",
+      "plate_number": "",
+      "format_status": "unrecognized",
+      "text_verified": false,
+      "reason": "incomplete_or_unsupported_structure"
+    },
+    "input_paths": [
+      "cases/052-0/inputs/no_clahe_whole-whole.png"
+    ],
+    "result_file": "runs/052-0--no_clahe_whole.json",
+    "log_file": "runs/052-0--no_clahe_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 2,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/052-0--no_clahe_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "052-0",
+    "filename": "img_0559_png.rf.9b572f712201a83b067ecc6c693a93a1.jpg",
+    "variant": "current_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                21,
+                11
+              ],
+              [
+                101,
+                11
+              ],
+              [
+                101,
+                47
+              ],
+              [
+                21,
+                47
+              ]
+            ],
+            "text": "63-84",
+            "confidence": 0.8224761508849241
+          },
+          {
+            "bbox": [
+              [
+                15,
+                41
+              ],
+              [
+                107,
+                41
+              ],
+              [
+                107,
+                77
+              ],
+              [
+                15,
+                77
+              ]
+            ],
+            "text": "L89.57",
+            "confidence": 0.6242399649517079
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "63-84",
+      "L89.57"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "63-84",
+        "L89.57"
+      ],
+      "normalized_lines": [
+        "6384",
+        "L8957"
+      ],
+      "corrected_lines": [
+        "6384",
+        "L8957"
+      ],
+      "corrections": [],
+      "formatted_text": "6384 L8957",
+      "plate_number": "",
+      "format_status": "unrecognized",
+      "text_verified": false,
+      "reason": "incomplete_or_unsupported_structure"
+    },
+    "input_paths": [
+      "cases/052-0/inputs/current_whole-whole.png"
+    ],
+    "result_file": "runs/052-0--current_whole.json",
+    "log_file": "runs/052-0--current_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 2,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/052-0--current_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "sample-1",
+    "filename": "assets/samples/1.jpg",
+    "variant": "raw_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                119,
+                61
+              ],
+              [
+                561,
+                61
+              ],
+              [
+                561,
+                273
+              ],
+              [
+                119,
+                273
+              ]
+            ],
+            "text": "68-61",
+            "confidence": 0.9534379996848696
+          },
+          {
+            "bbox": [
+              [
+                75,
+                264
+              ],
+              [
+                558,
+                264
+              ],
+              [
+                558,
+                432
+              ],
+              [
+                75,
+                432
+              ]
+            ],
+            "text": "G6996",
+            "confidence": 0.08662454892122053
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "68-61",
+      "G6996"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "68-61",
+        "G6996"
+      ],
+      "normalized_lines": [
+        "6861",
+        "G6996"
+      ],
+      "corrected_lines": [
+        "6861",
+        "G6996"
+      ],
+      "corrections": [],
+      "formatted_text": "6861 G6996",
+      "plate_number": "",
+      "format_status": "unrecognized",
+      "text_verified": false,
+      "reason": "incomplete_or_unsupported_structure"
+    },
+    "input_paths": [
+      "cases/sample-1/inputs/raw_whole-whole.png"
+    ],
+    "result_file": "runs/sample-1--raw_whole.json",
+    "log_file": "runs/sample-1--raw_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 2,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/sample-1--raw_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "sample-1",
+    "filename": "assets/samples/1.jpg",
+    "variant": "gray_up_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                238,
+                135
+              ],
+              [
+                1143,
+                135
+              ],
+              [
+                1143,
+                539
+              ],
+              [
+                238,
+                539
+              ]
+            ],
+            "text": "68-61",
+            "confidence": 0.9900599375282779
+          },
+          {
+            "bbox": [
+              [
+                123,
+                541
+              ],
+              [
+                1107,
+                541
+              ],
+              [
+                1107,
+                864
+              ],
+              [
+                123,
+                864
+              ]
+            ],
+            "text": "S699",
+            "confidence": 0.2335023283958435
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "68-61",
+      "S699"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "68-61",
+        "S699"
+      ],
+      "normalized_lines": [
+        "6861",
+        "S699"
+      ],
+      "corrected_lines": [
+        "6861",
+        "S699"
+      ],
+      "corrections": [],
+      "formatted_text": "6861 S699",
+      "plate_number": "",
+      "format_status": "unrecognized",
+      "text_verified": false,
+      "reason": "incomplete_or_unsupported_structure"
+    },
+    "input_paths": [
+      "cases/sample-1/inputs/gray_up_whole-whole.png"
+    ],
+    "result_file": "runs/sample-1--gray_up_whole.json",
+    "log_file": "runs/sample-1--gray_up_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 2,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/sample-1--gray_up_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "sample-1",
+    "filename": "assets/samples/1.jpg",
+    "variant": "no_deskew_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                231,
+                129
+              ],
+              [
+                1147,
+                129
+              ],
+              [
+                1147,
+                550
+              ],
+              [
+                231,
+                550
+              ]
+            ],
+            "text": "68-61",
+            "confidence": 0.9831111622172511
+          },
+          {
+            "bbox": [
+              [
+                123,
+                539
+              ],
+              [
+                1097,
+                539
+              ],
+              [
+                1097,
+                864
+              ],
+              [
+                123,
+                864
+              ]
+            ],
+            "text": "S64-9",
+            "confidence": 0.06110737911814184
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "68-61",
+      "S64-9"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "68-61",
+        "S64-9"
+      ],
+      "normalized_lines": [
+        "6861",
+        "S649"
+      ],
+      "corrected_lines": [
+        "6861",
+        "S649"
+      ],
+      "corrections": [],
+      "formatted_text": "6861 S649",
+      "plate_number": "",
+      "format_status": "unrecognized",
+      "text_verified": false,
+      "reason": "incomplete_or_unsupported_structure"
+    },
+    "input_paths": [
+      "cases/sample-1/inputs/no_deskew_whole-whole.png"
+    ],
+    "result_file": "runs/sample-1--no_deskew_whole.json",
+    "log_file": "runs/sample-1--no_deskew_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 2,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/sample-1--no_deskew_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "sample-1",
+    "filename": "assets/samples/1.jpg",
+    "variant": "no_clahe_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                238,
+                135
+              ],
+              [
+                1143,
+                135
+              ],
+              [
+                1143,
+                539
+              ],
+              [
+                238,
+                539
+              ]
+            ],
+            "text": "68-61",
+            "confidence": 0.9900599375282779
+          },
+          {
+            "bbox": [
+              [
+                123,
+                541
+              ],
+              [
+                1107,
+                541
+              ],
+              [
+                1107,
+                864
+              ],
+              [
+                123,
+                864
+              ]
+            ],
+            "text": "S699",
+            "confidence": 0.2335023283958435
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "68-61",
+      "S699"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "68-61",
+        "S699"
+      ],
+      "normalized_lines": [
+        "6861",
+        "S699"
+      ],
+      "corrected_lines": [
+        "6861",
+        "S699"
+      ],
+      "corrections": [],
+      "formatted_text": "6861 S699",
+      "plate_number": "",
+      "format_status": "unrecognized",
+      "text_verified": false,
+      "reason": "incomplete_or_unsupported_structure"
+    },
+    "input_paths": [
+      "cases/sample-1/inputs/no_clahe_whole-whole.png"
+    ],
+    "result_file": "runs/sample-1--no_clahe_whole.json",
+    "log_file": "runs/sample-1--no_clahe_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 2,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/sample-1--no_clahe_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "sample-1",
+    "filename": "assets/samples/1.jpg",
+    "variant": "current_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                231,
+                129
+              ],
+              [
+                1147,
+                129
+              ],
+              [
+                1147,
+                550
+              ],
+              [
+                231,
+                550
+              ]
+            ],
+            "text": "68-61",
+            "confidence": 0.9831111622172511
+          },
+          {
+            "bbox": [
+              [
+                123,
+                539
+              ],
+              [
+                1097,
+                539
+              ],
+              [
+                1097,
+                864
+              ],
+              [
+                123,
+                864
+              ]
+            ],
+            "text": "S64-9",
+            "confidence": 0.06110737911814184
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "68-61",
+      "S64-9"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "68-61",
+        "S64-9"
+      ],
+      "normalized_lines": [
+        "6861",
+        "S649"
+      ],
+      "corrected_lines": [
+        "6861",
+        "S649"
+      ],
+      "corrections": [],
+      "formatted_text": "6861 S649",
+      "plate_number": "",
+      "format_status": "unrecognized",
+      "text_verified": false,
+      "reason": "incomplete_or_unsupported_structure"
+    },
+    "input_paths": [
+      "cases/sample-1/inputs/current_whole-whole.png"
+    ],
+    "result_file": "runs/sample-1--current_whole.json",
+    "log_file": "runs/sample-1--current_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 2,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/sample-1--current_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "sample-1",
+    "filename": "assets/samples/1.jpg",
+    "variant": "raw_split",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "top",
+        "results": [
+          {
+            "bbox": [
+              [
+                119,
+                61
+              ],
+              [
+                561,
+                61
+              ],
+              [
+                561,
+                269
+              ],
+              [
+                119,
+                269
+              ]
+            ],
+            "text": "68-61",
+            "confidence": 0.9186166311753768
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      },
+      {
+        "input_label": "bottom",
+        "results": [
+          {
+            "bbox": [
+              [
+                0,
+                0
+              ],
+              [
+                586,
+                0
+              ],
+              [
+                586,
+                163
+              ],
+              [
+                0,
+                163
+              ]
+            ],
+            "text": "IG68PF",
+            "confidence": 0.02907932307547124
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "68-61",
+      "IG68PF"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "68-61",
+        "IG68PF"
+      ],
+      "normalized_lines": [
+        "6861",
+        "IG68PF"
+      ],
+      "corrected_lines": [
+        "6861",
+        "IG68PF"
+      ],
+      "corrections": [],
+      "formatted_text": "6861 IG68PF",
+      "plate_number": "",
+      "format_status": "unrecognized",
+      "text_verified": false,
+      "reason": "incomplete_or_unsupported_structure"
+    },
+    "input_paths": [
+      "cases/sample-1/inputs/raw_split-top.png",
+      "cases/sample-1/inputs/raw_split-bottom.png"
+    ],
+    "result_file": "runs/sample-1--raw_split.json",
+    "log_file": "runs/sample-1--raw_split.log",
+    "detector_region_counts": [
+      {
+        "input_label": "top",
+        "horizontal": 1,
+        "free": 0,
+        "detector_completed": true
+      },
+      {
+        "input_label": "bottom",
+        "horizontal": 1,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/sample-1--raw_split--top.jpg",
+      "overlays/sample-1--raw_split--bottom.jpg"
+    ]
+  },
+  {
+    "case_id": "sample-1",
+    "filename": "assets/samples/1.jpg",
+    "variant": "gray_up_split",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "top",
+        "results": [
+          {
+            "bbox": [
+              [
+                240,
+                136
+              ],
+              [
+                1147,
+                136
+              ],
+              [
+                1147,
+                529
+              ],
+              [
+                240,
+                529
+              ]
+            ],
+            "text": "68-61",
+            "confidence": 0.9737700845265809
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      },
+      {
+        "input_label": "bottom",
+        "results": [
+          {
+            "bbox": [
+              [
+                152,
+                8
+              ],
+              [
+                1116,
+                8
+              ],
+              [
+                1116,
+                326
+              ],
+              [
+                152,
+                326
+              ]
+            ],
+            "text": "S6996",
+            "confidence": 0.06409576013149725
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "68-61",
+      "S6996"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "68-61",
+        "S6996"
+      ],
+      "normalized_lines": [
+        "6861",
+        "S6996"
+      ],
+      "corrected_lines": [
+        "6861",
+        "S6996"
+      ],
+      "corrections": [],
+      "formatted_text": "6861 S6996",
+      "plate_number": "",
+      "format_status": "unrecognized",
+      "text_verified": false,
+      "reason": "incomplete_or_unsupported_structure"
+    },
+    "input_paths": [
+      "cases/sample-1/inputs/gray_up_split-top.png",
+      "cases/sample-1/inputs/gray_up_split-bottom.png"
+    ],
+    "result_file": "runs/sample-1--gray_up_split.json",
+    "log_file": "runs/sample-1--gray_up_split.log",
+    "detector_region_counts": [
+      {
+        "input_label": "top",
+        "horizontal": 1,
+        "free": 0,
+        "detector_completed": true
+      },
+      {
+        "input_label": "bottom",
+        "horizontal": 1,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/sample-1--gray_up_split--top.jpg",
+      "overlays/sample-1--gray_up_split--bottom.jpg"
+    ]
+  },
+  {
+    "case_id": "sample-1",
+    "filename": "assets/samples/1.jpg",
+    "variant": "current_split",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "top",
+        "results": [
+          {
+            "bbox": [
+              [
+                238,
+                137
+              ],
+              [
+                1144,
+                137
+              ],
+              [
+                1144,
+                529
+              ],
+              [
+                238,
+                529
+              ]
+            ],
+            "text": "68-61",
+            "confidence": 0.9313424860774118
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      },
+      {
+        "input_label": "bottom",
+        "results": [
+          {
+            "bbox": [
+              [
+                145,
+                3
+              ],
+              [
+                1087,
+                3
+              ],
+              [
+                1087,
+                327
+              ],
+              [
+                145,
+                327
+              ]
+            ],
+            "text": "S699",
+            "confidence": 0.3293308913707733
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "68-61",
+      "S699"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "68-61",
+        "S699"
+      ],
+      "normalized_lines": [
+        "6861",
+        "S699"
+      ],
+      "corrected_lines": [
+        "6861",
+        "S699"
+      ],
+      "corrections": [],
+      "formatted_text": "6861 S699",
+      "plate_number": "",
+      "format_status": "unrecognized",
+      "text_verified": false,
+      "reason": "incomplete_or_unsupported_structure"
+    },
+    "input_paths": [
+      "cases/sample-1/inputs/current_split-top.png",
+      "cases/sample-1/inputs/current_split-bottom.png"
+    ],
+    "result_file": "runs/sample-1--current_split.json",
+    "log_file": "runs/sample-1--current_split.log",
+    "detector_region_counts": [
+      {
+        "input_label": "top",
+        "horizontal": 1,
+        "free": 0,
+        "detector_completed": true
+      },
+      {
+        "input_label": "bottom",
+        "horizontal": 1,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/sample-1--current_split--top.jpg",
+      "overlays/sample-1--current_split--bottom.jpg"
+    ]
+  },
+  {
+    "case_id": "sample-1",
+    "filename": "assets/samples/1.jpg",
+    "variant": "current_split_clahe",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "top",
+        "results": [
+          {
+            "bbox": [
+              [
+                240,
+                145
+              ],
+              [
+                1129,
+                145
+              ],
+              [
+                1129,
+                505
+              ],
+              [
+                240,
+                505
+              ]
+            ],
+            "text": "68-61",
+            "confidence": 0.5508899966921849
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      },
+      {
+        "input_label": "bottom",
+        "results": [
+          {
+            "bbox": [
+              [
+                150,
+                14
+              ],
+              [
+                650,
+                14
+              ],
+              [
+                650,
+                284
+              ],
+              [
+                150,
+                284
+              ]
+            ],
+            "text": "FAC",
+            "confidence": 0.18330205888248616
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "68-61",
+      "FAC"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "68-61",
+        "FAC"
+      ],
+      "normalized_lines": [
+        "6861",
+        "FAC"
+      ],
+      "corrected_lines": [
+        "6861",
+        "FAC"
+      ],
+      "corrections": [],
+      "formatted_text": "6861 FAC",
+      "plate_number": "",
+      "format_status": "unrecognized",
+      "text_verified": false,
+      "reason": "incomplete_or_unsupported_structure"
+    },
+    "input_paths": [
+      "cases/sample-1/inputs/current_split_clahe-top.png",
+      "cases/sample-1/inputs/current_split_clahe-bottom.png"
+    ],
+    "result_file": "runs/sample-1--current_split_clahe.json",
+    "log_file": "runs/sample-1--current_split_clahe.log",
+    "detector_region_counts": [
+      {
+        "input_label": "top",
+        "horizontal": 1,
+        "free": 0,
+        "detector_completed": true
+      },
+      {
+        "input_label": "bottom",
+        "horizontal": 1,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/sample-1--current_split_clahe--top.jpg",
+      "overlays/sample-1--current_split_clahe--bottom.jpg"
+    ]
+  },
+  {
+    "case_id": "001-0",
+    "filename": "img_0007_png.rf.5e94f82c4bde042cbf70480bab3d6abb.jpg",
+    "variant": "raw_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                72,
+                32
+              ],
+              [
+                423,
+                32
+              ],
+              [
+                423,
+                136
+              ],
+              [
+                72,
+                136
+              ]
+            ],
+            "text": "51K164.95",
+            "confidence": 0.5042721030969576
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "51K164.95"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "51K164.95"
+      ],
+      "normalized_lines": [
+        "51K16495"
+      ],
+      "corrected_lines": [
+        "51K16495"
+      ],
+      "corrections": [],
+      "formatted_text": "51K-164.95",
+      "plate_number": "51K-164.95",
+      "format_status": "structured",
+      "text_verified": false
+    },
+    "input_paths": [
+      "cases/001-0/inputs/raw_whole-whole.png"
+    ],
+    "result_file": "runs/001-0--raw_whole.json",
+    "log_file": "runs/001-0--raw_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 1,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/001-0--raw_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "001-0",
+    "filename": "img_0007_png.rf.5e94f82c4bde042cbf70480bab3d6abb.jpg",
+    "variant": "gray_up_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                151,
+                70
+              ],
+              [
+                840,
+                70
+              ],
+              [
+                840,
+                266
+              ],
+              [
+                151,
+                266
+              ]
+            ],
+            "text": "51KM164.95",
+            "confidence": 0.25473251158187077
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "51KM164.95"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "51KM164.95"
+      ],
+      "normalized_lines": [
+        "51KM16495"
+      ],
+      "corrected_lines": [
+        "51KM16495"
+      ],
+      "corrections": [],
+      "formatted_text": "51KM-164.95",
+      "plate_number": "51KM-164.95",
+      "format_status": "structured",
+      "text_verified": false
+    },
+    "input_paths": [
+      "cases/001-0/inputs/gray_up_whole-whole.png"
+    ],
+    "result_file": "runs/001-0--gray_up_whole.json",
+    "log_file": "runs/001-0--gray_up_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 1,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/001-0--gray_up_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "001-0",
+    "filename": "img_0007_png.rf.5e94f82c4bde042cbf70480bab3d6abb.jpg",
+    "variant": "no_deskew_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                149,
+                69
+              ],
+              [
+                842,
+                69
+              ],
+              [
+                842,
+                266
+              ],
+              [
+                149,
+                266
+              ]
+            ],
+            "text": "51KM164.95",
+            "confidence": 0.5188981143446683
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "51KM164.95"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "51KM164.95"
+      ],
+      "normalized_lines": [
+        "51KM16495"
+      ],
+      "corrected_lines": [
+        "51KM16495"
+      ],
+      "corrections": [],
+      "formatted_text": "51KM-164.95",
+      "plate_number": "51KM-164.95",
+      "format_status": "structured",
+      "text_verified": false
+    },
+    "input_paths": [
+      "cases/001-0/inputs/no_deskew_whole-whole.png"
+    ],
+    "result_file": "runs/001-0--no_deskew_whole.json",
+    "log_file": "runs/001-0--no_deskew_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 1,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/001-0--no_deskew_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "001-0",
+    "filename": "img_0007_png.rf.5e94f82c4bde042cbf70480bab3d6abb.jpg",
+    "variant": "no_clahe_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                149,
+                35
+              ],
+              [
+                840,
+                35
+              ],
+              [
+                840,
+                232
+              ],
+              [
+                149,
+                232
+              ]
+            ],
+            "text": "51KM164.95",
+            "confidence": 0.1995221087799789
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "51KM164.95"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "51KM164.95"
+      ],
+      "normalized_lines": [
+        "51KM16495"
+      ],
+      "corrected_lines": [
+        "51KM16495"
+      ],
+      "corrections": [],
+      "formatted_text": "51KM-164.95",
+      "plate_number": "51KM-164.95",
+      "format_status": "structured",
+      "text_verified": false
+    },
+    "input_paths": [
+      "cases/001-0/inputs/no_clahe_whole-whole.png"
+    ],
+    "result_file": "runs/001-0--no_clahe_whole.json",
+    "log_file": "runs/001-0--no_clahe_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 1,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/001-0--no_clahe_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "001-0",
+    "filename": "img_0007_png.rf.5e94f82c4bde042cbf70480bab3d6abb.jpg",
+    "variant": "current_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                149,
+                36
+              ],
+              [
+                840,
+                36
+              ],
+              [
+                840,
+                231
+              ],
+              [
+                149,
+                231
+              ]
+            ],
+            "text": "51KM164.95",
+            "confidence": 0.3624281375245191
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "51KM164.95"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "51KM164.95"
+      ],
+      "normalized_lines": [
+        "51KM16495"
+      ],
+      "corrected_lines": [
+        "51KM16495"
+      ],
+      "corrections": [],
+      "formatted_text": "51KM-164.95",
+      "plate_number": "51KM-164.95",
+      "format_status": "structured",
+      "text_verified": false
+    },
+    "input_paths": [
+      "cases/001-0/inputs/current_whole-whole.png"
+    ],
+    "result_file": "runs/001-0--current_whole.json",
+    "log_file": "runs/001-0--current_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 1,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/001-0--current_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "052-1",
+    "filename": "img_0559_png.rf.9b572f712201a83b067ecc6c693a93a1.jpg",
+    "variant": "raw_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                18,
+                6
+              ],
+              [
+                66,
+                6
+              ],
+              [
+                66,
+                30
+              ],
+              [
+                18,
+                30
+              ]
+            ],
+            "text": "59-C",
+            "confidence": 0.4348769783973694
+          },
+          {
+            "bbox": [
+              [
+                40,
+                26
+              ],
+              [
+                66,
+                26
+              ],
+              [
+                66,
+                52
+              ],
+              [
+                40,
+                52
+              ]
+            ],
+            "text": "78",
+            "confidence": 0.7608523638801594
+          },
+          {
+            "bbox": [
+              [
+                10.885827970937688,
+                21.214569927344222
+              ],
+              [
+                47.69852447572799,
+                26.68928811178926
+              ],
+              [
+                44.11417202906231,
+                51.78543007265578
+              ],
+              [
+                7.301475524272007,
+                46.31071188821074
+              ]
+            ],
+            "text": "L05L",
+            "confidence": 0.2089216411113739
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "59-C",
+      "L05L78"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "59-C",
+        "L05L78"
+      ],
+      "normalized_lines": [
+        "59C",
+        "L05L78"
+      ],
+      "corrected_lines": [
+        "59C",
+        "L05L78"
+      ],
+      "corrections": [],
+      "formatted_text": "59C L05L78",
+      "plate_number": "",
+      "format_status": "unrecognized",
+      "text_verified": false,
+      "reason": "incomplete_or_unsupported_structure"
+    },
+    "input_paths": [
+      "cases/052-1/inputs/raw_whole-whole.png"
+    ],
+    "result_file": "runs/052-1--raw_whole.json",
+    "log_file": "runs/052-1--raw_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 2,
+        "free": 1,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/052-1--raw_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "052-1",
+    "filename": "img_0559_png.rf.9b572f712201a83b067ecc6c693a93a1.jpg",
+    "variant": "gray_up_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                38,
+                12
+              ],
+              [
+                130,
+                12
+              ],
+              [
+                130,
+                60
+              ],
+              [
+                38,
+                60
+              ]
+            ],
+            "text": "59-CZ",
+            "confidence": 0.2854917591833809
+          },
+          {
+            "bbox": [
+              [
+                22,
+                50
+              ],
+              [
+                132,
+                50
+              ],
+              [
+                132,
+                102
+              ],
+              [
+                22,
+                102
+              ]
+            ],
+            "text": "054.78",
+            "confidence": 0.7872288050227035
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "59-CZ",
+      "054.78"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "59-CZ",
+        "054.78"
+      ],
+      "normalized_lines": [
+        "59CZ",
+        "05478"
+      ],
+      "corrected_lines": [
+        "59CZ",
+        "05478"
+      ],
+      "corrections": [],
+      "formatted_text": "59CZ-054.78",
+      "plate_number": "59CZ-054.78",
+      "format_status": "structured",
+      "text_verified": false
+    },
+    "input_paths": [
+      "cases/052-1/inputs/gray_up_whole-whole.png"
+    ],
+    "result_file": "runs/052-1--gray_up_whole.json",
+    "log_file": "runs/052-1--gray_up_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 2,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/052-1--gray_up_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "052-1",
+    "filename": "img_0559_png.rf.9b572f712201a83b067ecc6c693a93a1.jpg",
+    "variant": "no_deskew_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                38,
+                12
+              ],
+              [
+                130,
+                12
+              ],
+              [
+                130,
+                60
+              ],
+              [
+                38,
+                60
+              ]
+            ],
+            "text": "59-CL",
+            "confidence": 0.140545241601779
+          },
+          {
+            "bbox": [
+              [
+                22,
+                50
+              ],
+              [
+                132,
+                50
+              ],
+              [
+                132,
+                100
+              ],
+              [
+                22,
+                100
+              ]
+            ],
+            "text": "054.78",
+            "confidence": 0.9968511040310564
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "59-CL",
+      "054.78"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "59-CL",
+        "054.78"
+      ],
+      "normalized_lines": [
+        "59CL",
+        "05478"
+      ],
+      "corrected_lines": [
+        "59CL",
+        "05478"
+      ],
+      "corrections": [],
+      "formatted_text": "59CL-054.78",
+      "plate_number": "59CL-054.78",
+      "format_status": "structured",
+      "text_verified": false
+    },
+    "input_paths": [
+      "cases/052-1/inputs/no_deskew_whole-whole.png"
+    ],
+    "result_file": "runs/052-1--no_deskew_whole.json",
+    "log_file": "runs/052-1--no_deskew_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 2,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/052-1--no_deskew_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "052-1",
+    "filename": "img_0559_png.rf.9b572f712201a83b067ecc6c693a93a1.jpg",
+    "variant": "no_clahe_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                41,
+                15
+              ],
+              [
+                127,
+                15
+              ],
+              [
+                127,
+                59
+              ],
+              [
+                41,
+                59
+              ]
+            ],
+            "text": "59-CL",
+            "confidence": 0.4220568798111924
+          },
+          {
+            "bbox": [
+              [
+                22,
+                50
+              ],
+              [
+                130,
+                50
+              ],
+              [
+                130,
+                100
+              ],
+              [
+                22,
+                100
+              ]
+            ],
+            "text": "054.78",
+            "confidence": 0.7799960918375027
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "59-CL",
+      "054.78"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "59-CL",
+        "054.78"
+      ],
+      "normalized_lines": [
+        "59CL",
+        "05478"
+      ],
+      "corrected_lines": [
+        "59CL",
+        "05478"
+      ],
+      "corrections": [],
+      "formatted_text": "59CL-054.78",
+      "plate_number": "59CL-054.78",
+      "format_status": "structured",
+      "text_verified": false
+    },
+    "input_paths": [
+      "cases/052-1/inputs/no_clahe_whole-whole.png"
+    ],
+    "result_file": "runs/052-1--no_clahe_whole.json",
+    "log_file": "runs/052-1--no_clahe_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 2,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/052-1--no_clahe_whole--whole.jpg"
+    ]
+  },
+  {
+    "case_id": "052-1",
+    "filename": "img_0559_png.rf.9b572f712201a83b067ecc6c693a93a1.jpg",
+    "variant": "current_whole",
+    "execution_status": "completed",
+    "raw": [
+      {
+        "input_label": "whole",
+        "results": [
+          {
+            "bbox": [
+              [
+                36,
+                12
+              ],
+              [
+                128,
+                12
+              ],
+              [
+                128,
+                60
+              ],
+              [
+                36,
+                60
+              ]
+            ],
+            "text": "59-CL",
+            "confidence": 0.6468095651532404
+          },
+          {
+            "bbox": [
+              [
+                22,
+                50
+              ],
+              [
+                130,
+                50
+              ],
+              [
+                130,
+                100
+              ],
+              [
+                22,
+                100
+              ]
+            ],
+            "text": "054.78",
+            "confidence": 0.605189807144254
+          }
+        ],
+        "readtext_completed": true,
+        "stage": "complete"
+      }
+    ],
+    "raw_lines": [
+      "59-CL",
+      "054.78"
+    ],
+    "format_trace": {
+      "raw_lines": [
+        "59-CL",
+        "054.78"
+      ],
+      "normalized_lines": [
+        "59CL",
+        "05478"
+      ],
+      "corrected_lines": [
+        "59CL",
+        "05478"
+      ],
+      "corrections": [],
+      "formatted_text": "59CL-054.78",
+      "plate_number": "59CL-054.78",
+      "format_status": "structured",
+      "text_verified": false
+    },
+    "input_paths": [
+      "cases/052-1/inputs/current_whole-whole.png"
+    ],
+    "result_file": "runs/052-1--current_whole.json",
+    "log_file": "runs/052-1--current_whole.log",
+    "detector_region_counts": [
+      {
+        "input_label": "whole",
+        "horizontal": 2,
+        "free": 0,
+        "detector_completed": true
+      }
+    ],
+    "ocr_overlay_paths": [
+      "overlays/052-1--current_whole--whole.jpg"
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+services:
+  backend:
+    build: .
+    image: ccnlthd-lpr:latest
+    ports:
+      - "8000:8000"
+    environment:
+      API_HOST: 0.0.0.0
+      API_PORT: "8000"
+      MODEL_PATH: weights/best.pt
+      OCR_USE_GPU: "false"
+      CORS_ORIGINS: "*"
+    volumes:
+      - ./weights:/app/weights:ro
+      - ./data:/app/data:ro
+      - ./assets:/app/assets:ro
+    restart: unless-stopped

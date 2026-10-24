@@ -1,0 +1,12 @@
+# Lightweight Unit/API suite; Python 3.10. Verified versions from the approved WSL env.
+# Top-level pins, not a complete transitive lockfile. No production AI packages.
+fastapi==0.143.2
+starlette==1.7.0
+uvicorn==0.54.0
+python-multipart==0.0.32
+numpy==2.2.6
+opencv-python-headless==5.0.0.93
+Pillow==12.3.0
+python-dotenv==1.2.4
+pytest==9.1.1
+httpx==0.28.1

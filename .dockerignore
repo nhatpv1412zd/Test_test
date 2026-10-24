@@ -1,0 +1,72 @@
+# Private environment files at every directory depth; keep the public template.
+**/.env
+**/.env.*
+!**/.env.example
+
+# Version control, virtual environments and machine-local tool state.
+**/.git
+**/.venv
+**/venv
+**/env
+**/.idea
+**/.vscode
+.kilo
+.codex
+.agents
+
+# Local service credentials and private keys (not public runtime assets).
+**/.aws
+**/.azure
+**/.ssh
+**/.kube
+**/.config/gcloud
+**/.netrc
+**/.npmrc
+**/.pypirc
+**/kaggle.json
+**/credentials.json
+**/service-account*.json
+**/id_rsa
+**/id_ed25519
+**/*.key
+**/*.pem
+**/*.p12
+**/*.pfx
+
+# Generated caches, temporary files and OS metadata.
+**/__pycache__
+**/*.py[cod]
+**/*.egg-info
+**/.pytest_cache
+**/.mypy_cache
+**/.ruff_cache
+**/.cache
+**/node_modules
+**/*.tmp
+**/*.temp
+**/*.swp
+**/*~
+**/.DS_Store
+**/Thumbs.db
+
+# API image/context only; excluded files remain unchanged on the host.
+# Preserve be/, src/, .env.example, deployment manifest and assets/samples/.
+data/
+experiments/
+tests/
+notebooks/
+scripts/
+docs/
+fe/
+.github/
+**/*.ipynb
+**/*.cache
+**/.EasyOCR
+requirements.txt
+requirements-test.txt
+pytest.ini
+*.md
+
+# Only the approved checkpoint; never the deprecated or test checkpoint.
+weights/*
+!weights/best.pt

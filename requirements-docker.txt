@@ -1,0 +1,23 @@
+# Linux/amd64, CPython 3.10 CPU deployment profile. Not the local/test manifest.
+# CPU wheels and hashes come from the official PyTorch CPU index. Direct URLs
+# constrain the resolver to these CPU builds, including when resolving AI deps.
+torch @ https://download-r2.pytorch.org/whl/cpu/torch-2.14.1%2Bcpu-cp310-cp310-manylinux_2_28_x86_64.whl#sha256=4ce2a6ae7d302bba56ef7c5c92d9f752728896cfe2626a7f3e5293f879e36650
+torchvision @ https://download-r2.pytorch.org/whl/cpu/torchvision-0.29.1%2Bcpu-cp310-cp310-manylinux_2_28_x86_64.whl#sha256=25687959fab99dc2489c5f5ab2624101066428a9d344f9f0b45c90c019b25037
+
+# Same Ultralytics public version inspected in A; official headless distribution
+# provides the ultralytics import without pulling desktop opencv-python as well.
+ultralytics-opencv-headless==8.4.177
+easyocr==1.7.2
+opencv-python-headless==5.0.0.93
+numpy==2.2.6
+Pillow==12.3.0
+
+# API/config versions from the approved lightweight stack, not proof of AI runtime.
+fastapi==0.143.2
+starlette==1.7.0
+uvicorn==0.54.0
+python-multipart==0.0.32
+python-dotenv==1.2.4
+
+# Top-level policy, not a full transitive lock. Native imports, checkpoint loading
+# and the combined resolver outcome remain NOT VERIFIED until T2-02-C.

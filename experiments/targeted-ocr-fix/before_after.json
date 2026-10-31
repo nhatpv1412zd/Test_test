@@ -1,0 +1,1922 @@
+[
+  {
+    "case": "002-0",
+    "image": "img_0026",
+    "purpose": "split failure",
+    "before": {
+      "version": "before",
+      "case": "002-0",
+      "calls": [
+        {
+          "input_shape": [
+            802,
+            1612
+          ],
+          "started": true,
+          "completed": true,
+          "raw": []
+        },
+        {
+          "input_shape": [
+            456,
+            1612
+          ],
+          "started": true,
+          "completed": true,
+          "raw": []
+        }
+      ],
+      "final": "",
+      "completed": true,
+      "execution": {
+        "version": "before",
+        "case": "002-0",
+        "exit_code": 0,
+        "seconds": 13.2
+      }
+    },
+    "after": {
+      "version": "after",
+      "case": "002-0",
+      "calls": [
+        {
+          "input_shape": [
+            1258,
+            1612
+          ],
+          "started": true,
+          "completed": true,
+          "raw": []
+        }
+      ],
+      "details": {
+        "raw_lines": [],
+        "normalized_lines": [],
+        "corrected_lines": [],
+        "corrections": [],
+        "formatted_text": "",
+        "plate_number": "",
+        "format_status": "empty",
+        "text_verified": false,
+        "ocr_calls": [
+          {
+            "label": "whole",
+            "input_shape": [
+              1258,
+              1612
+            ],
+            "results": []
+          }
+        ],
+        "split_row": null,
+        "split_status": "rejected_no_reliable_gap"
+      },
+      "final": "",
+      "completed": true,
+      "execution": {
+        "version": "after",
+        "case": "002-0",
+        "exit_code": 0,
+        "seconds": 14.39
+      }
+    }
+  },
+  {
+    "case": "052-0",
+    "image": "img_0559",
+    "purpose": "partial OCR mapped to plausible text",
+    "before": {
+      "version": "before",
+      "case": "052-0",
+      "calls": [
+        {
+          "input_shape": [
+            41,
+            128
+          ],
+          "started": true,
+          "completed": true,
+          "raw": []
+        },
+        {
+          "input_shape": [
+            47,
+            128
+          ],
+          "started": true,
+          "completed": true,
+          "raw": [
+            {
+              "bbox": [
+                [
+                  11,
+                  0
+                ],
+                [
+                  111,
+                  0
+                ],
+                [
+                  111,
+                  39
+                ],
+                [
+                  11,
+                  39
+                ]
+              ],
+              "text": "L8953",
+              "confidence": 0.25920704424636637
+            }
+          ]
+        }
+      ],
+      "final": "18P53",
+      "completed": true,
+      "execution": {
+        "version": "before",
+        "case": "052-0",
+        "exit_code": 0,
+        "seconds": 6.97
+      }
+    },
+    "after": {
+      "version": "after",
+      "case": "052-0",
+      "calls": [
+        {
+          "input_shape": [
+            88,
+            128
+          ],
+          "started": true,
+          "completed": true,
+          "raw": [
+            {
+              "bbox": [
+                [
+                  21,
+                  11
+                ],
+                [
+                  101,
+                  11
+                ],
+                [
+                  101,
+                  47
+                ],
+                [
+                  21,
+                  47
+                ]
+              ],
+              "text": "63-84",
+              "confidence": 0.8224761508849241
+            },
+            {
+              "bbox": [
+                [
+                  15,
+                  41
+                ],
+                [
+                  107,
+                  41
+                ],
+                [
+                  107,
+                  77
+                ],
+                [
+                  15,
+                  77
+                ]
+              ],
+              "text": "L89.57",
+              "confidence": 0.6242399649517079
+            }
+          ]
+        }
+      ],
+      "details": {
+        "raw_lines": [
+          "63-84",
+          "L89.57"
+        ],
+        "normalized_lines": [
+          "6384",
+          "L8957"
+        ],
+        "corrected_lines": [
+          "6384",
+          "L8957"
+        ],
+        "corrections": [],
+        "formatted_text": "6384 L8957",
+        "plate_number": "",
+        "format_status": "unrecognized",
+        "text_verified": false,
+        "reason": "incomplete_or_unsupported_structure",
+        "ocr_calls": [
+          {
+            "label": "whole",
+            "input_shape": [
+              88,
+              128
+            ],
+            "results": [
+              {
+                "bbox": [
+                  [
+                    21,
+                    11
+                  ],
+                  [
+                    101,
+                    11
+                  ],
+                  [
+                    101,
+                    47
+                  ],
+                  [
+                    21,
+                    47
+                  ]
+                ],
+                "text": "63-84",
+                "confidence": 0.8224761508849241
+              },
+              {
+                "bbox": [
+                  [
+                    15,
+                    41
+                  ],
+                  [
+                    107,
+                    41
+                  ],
+                  [
+                    107,
+                    77
+                  ],
+                  [
+                    15,
+                    77
+                  ]
+                ],
+                "text": "L89.57",
+                "confidence": 0.6242399649517079
+              }
+            ]
+          }
+        ],
+        "split_row": null,
+        "split_status": "rejected_no_reliable_gap"
+      },
+      "final": "",
+      "completed": true,
+      "execution": {
+        "version": "after",
+        "case": "052-0",
+        "exit_code": 0,
+        "seconds": 7.55
+      }
+    }
+  },
+  {
+    "case": "024-0",
+    "image": "img_0204",
+    "purpose": "unbounded series",
+    "before": {
+      "version": "before",
+      "case": "024-0",
+      "calls": [
+        {
+          "input_shape": [
+            288,
+            878
+          ],
+          "started": true,
+          "completed": true,
+          "raw": [
+            {
+              "bbox": [
+                [
+                  163.34746421467256,
+                  77.01120864697106
+                ],
+                [
+                  553.8906991953397,
+                  262.9649363864505
+                ],
+                [
+                  479.6525357853275,
+                  405.98879135302894
+                ],
+                [
+                  89.10930080466032,
+                  221.03506361354948
+                ]
+              ],
+              "text": "54K697",
+              "confidence": 0.5450519498845453
+            }
+          ]
+        },
+        {
+          "input_shape": [
+            320,
+            878
+          ],
+          "started": true,
+          "completed": true,
+          "raw": [
+            {
+              "bbox": [
+                [
+                  377.2986771973391,
+                  -120.98769987583533
+                ],
+                [
+                  754.9850805396865,
+                  48.22762973759666
+                ],
+                [
+                  678.7013228026609,
+                  203.98769987583535
+                ],
+                [
+                  301.01491946031354,
+                  33.77237026240334
+                ]
+              ],
+              "text": "02L52",
+              "confidence": 0.44799261895179254
+            }
+          ]
+        }
+      ],
+      "final": "54-K697 021.52",
+      "completed": true,
+      "execution": {
+        "version": "before",
+        "case": "024-0",
+        "exit_code": 0,
+        "seconds": 8.75
+      }
+    },
+    "after": {
+      "version": "after",
+      "case": "024-0",
+      "calls": [
+        {
+          "input_shape": [
+            608,
+            878
+          ],
+          "started": true,
+          "completed": true,
+          "raw": [
+            {
+              "bbox": [
+                [
+                  161.45331034240795,
+                  71.00711714846477
+                ],
+                [
+                  755.6721699585795,
+                  336.3038683460135
+                ],
+                [
+                  676.5466896575921,
+                  496.9928828515352
+                ],
+                [
+                  82.32783004142046,
+                  230.69613165398653
+                ]
+              ],
+              "text": "51K-922.52",
+              "confidence": 0.4896035230477333
+            }
+          ]
+        }
+      ],
+      "details": {
+        "raw_lines": [
+          "51K-922.52"
+        ],
+        "normalized_lines": [
+          "51K92252"
+        ],
+        "corrected_lines": [
+          "51K92252"
+        ],
+        "corrections": [],
+        "formatted_text": "51K-922.52",
+        "plate_number": "51K-922.52",
+        "format_status": "structured",
+        "text_verified": false,
+        "ocr_calls": [
+          {
+            "label": "whole",
+            "input_shape": [
+              608,
+              878
+            ],
+            "results": [
+              {
+                "bbox": [
+                  [
+                    161.45331034240795,
+                    71.00711714846477
+                  ],
+                  [
+                    755.6721699585795,
+                    336.3038683460135
+                  ],
+                  [
+                    676.5466896575921,
+                    496.9928828515352
+                  ],
+                  [
+                    82.32783004142046,
+                    230.69613165398653
+                  ]
+                ],
+                "text": "51K-922.52",
+                "confidence": 0.4896035230477333
+              }
+            ]
+          }
+        ],
+        "split_row": null,
+        "split_status": "rejected_no_reliable_gap"
+      },
+      "final": "51K-922.52",
+      "completed": true,
+      "execution": {
+        "version": "after",
+        "case": "024-0",
+        "exit_code": 0,
+        "seconds": 8.88
+      }
+    }
+  },
+  {
+    "case": "006-0",
+    "image": "img_0045",
+    "purpose": "serial truncation",
+    "before": {
+      "version": "before",
+      "case": "006-0",
+      "calls": [
+        {
+          "input_shape": [
+            351,
+            994
+          ],
+          "started": true,
+          "completed": true,
+          "raw": [
+            {
+              "bbox": [
+                [
+                  302,
+                  73
+                ],
+                [
+                  898,
+                  73
+                ],
+                [
+                  898,
+                  339
+                ],
+                [
+                  302,
+                  339
+                ]
+              ],
+              "text": "29-PI",
+              "confidence": 0.5546392798185011
+            }
+          ]
+        },
+        {
+          "input_shape": [
+            271,
+            994
+          ],
+          "started": true,
+          "completed": true,
+          "raw": [
+            {
+              "bbox": [
+                [
+                  245,
+                  0
+                ],
+                [
+                  977,
+                  0
+                ],
+                [
+                  977,
+                  255
+                ],
+                [
+                  245,
+                  255
+                ]
+              ],
+              "text": "239.641",
+              "confidence": 0.4994662066658034
+            }
+          ]
+        }
+      ],
+      "final": "29PI-239.64",
+      "completed": true,
+      "execution": {
+        "version": "before",
+        "case": "006-0",
+        "exit_code": 0,
+        "seconds": 9.0
+      }
+    },
+    "after": {
+      "version": "after",
+      "case": "006-0",
+      "calls": [
+        {
+          "input_shape": [
+            622,
+            994
+          ],
+          "started": true,
+          "completed": true,
+          "raw": [
+            {
+              "bbox": [
+                [
+                  300,
+                  67
+                ],
+                [
+                  891,
+                  67
+                ],
+                [
+                  891,
+                  340
+                ],
+                [
+                  300,
+                  340
+                ]
+              ],
+              "text": "29-P1",
+              "confidence": 0.6135150398532914
+            },
+            {
+              "bbox": [
+                [
+                  248,
+                  334
+                ],
+                [
+                  966,
+                  334
+                ],
+                [
+                  966,
+                  602
+                ],
+                [
+                  248,
+                  602
+                ]
+              ],
+              "text": "239.64",
+              "confidence": 0.8209154169773928
+            }
+          ]
+        }
+      ],
+      "details": {
+        "raw_lines": [
+          "29-P1",
+          "239.64"
+        ],
+        "normalized_lines": [
+          "29P1",
+          "23964"
+        ],
+        "corrected_lines": [
+          "29P1",
+          "23964"
+        ],
+        "corrections": [],
+        "formatted_text": "29-P1 239.64",
+        "plate_number": "29-P1 239.64",
+        "format_status": "structured",
+        "text_verified": false,
+        "ocr_calls": [
+          {
+            "label": "whole",
+            "input_shape": [
+              622,
+              994
+            ],
+            "results": [
+              {
+                "bbox": [
+                  [
+                    300,
+                    67
+                  ],
+                  [
+                    891,
+                    67
+                  ],
+                  [
+                    891,
+                    340
+                  ],
+                  [
+                    300,
+                    340
+                  ]
+                ],
+                "text": "29-P1",
+                "confidence": 0.6135150398532914
+              },
+              {
+                "bbox": [
+                  [
+                    248,
+                    334
+                  ],
+                  [
+                    966,
+                    334
+                  ],
+                  [
+                    966,
+                    602
+                  ],
+                  [
+                    248,
+                    602
+                  ]
+                ],
+                "text": "239.64",
+                "confidence": 0.8209154169773928
+              }
+            ]
+          }
+        ],
+        "split_row": null,
+        "split_status": "rejected_no_reliable_gap"
+      },
+      "final": "29-P1 239.64",
+      "completed": true,
+      "execution": {
+        "version": "after",
+        "case": "006-0",
+        "exit_code": 0,
+        "seconds": 10.86
+      }
+    }
+  },
+  {
+    "case": "014-0",
+    "image": "img_0100",
+    "purpose": "previous nonempty two-line control",
+    "before": {
+      "version": "before",
+      "case": "014-0",
+      "calls": [
+        {
+          "input_shape": [
+            153,
+            350
+          ],
+          "started": true,
+          "completed": true,
+          "raw": [
+            {
+              "bbox": [
+                [
+                  73,
+                  54
+                ],
+                [
+                  293,
+                  54
+                ],
+                [
+                  293,
+                  153
+                ],
+                [
+                  73,
+                  153
+                ]
+              ],
+              "text": "59-MA",
+              "confidence": 0.9778335832356675
+            }
+          ]
+        },
+        {
+          "input_shape": [
+            155,
+            350
+          ],
+          "started": true,
+          "completed": true,
+          "raw": [
+            {
+              "bbox": [
+                [
+                  44,
+                  0
+                ],
+                [
+                  292,
+                  0
+                ],
+                [
+                  292,
+                  100
+                ],
+                [
+                  44,
+                  100
+                ]
+              ],
+              "text": "098.52",
+              "confidence": 0.9392648477910004
+            }
+          ]
+        }
+      ],
+      "final": "59MA-098.52",
+      "completed": true,
+      "execution": {
+        "version": "before",
+        "case": "014-0",
+        "exit_code": 0,
+        "seconds": 7.52
+      }
+    },
+    "after": {
+      "version": "after",
+      "case": "014-0",
+      "calls": [
+        {
+          "input_shape": [
+            308,
+            350
+          ],
+          "started": true,
+          "completed": true,
+          "raw": [
+            {
+              "bbox": [
+                [
+                  73,
+                  52
+                ],
+                [
+                  285,
+                  52
+                ],
+                [
+                  285,
+                  166
+                ],
+                [
+                  73,
+                  166
+                ]
+              ],
+              "text": "59-MA",
+              "confidence": 0.8266509879332744
+            },
+            {
+              "bbox": [
+                [
+                  42,
+                  135
+                ],
+                [
+                  292,
+                  135
+                ],
+                [
+                  292,
+                  255
+                ],
+                [
+                  42,
+                  255
+                ]
+              ],
+              "text": "098.57",
+              "confidence": 0.7643057418097685
+            }
+          ]
+        }
+      ],
+      "details": {
+        "raw_lines": [
+          "59-MA",
+          "098.57"
+        ],
+        "normalized_lines": [
+          "59MA",
+          "09857"
+        ],
+        "corrected_lines": [
+          "59MA",
+          "09857"
+        ],
+        "corrections": [],
+        "formatted_text": "59MA-098.57",
+        "plate_number": "59MA-098.57",
+        "format_status": "structured",
+        "text_verified": false,
+        "ocr_calls": [
+          {
+            "label": "whole",
+            "input_shape": [
+              308,
+              350
+            ],
+            "results": [
+              {
+                "bbox": [
+                  [
+                    73,
+                    52
+                  ],
+                  [
+                    285,
+                    52
+                  ],
+                  [
+                    285,
+                    166
+                  ],
+                  [
+                    73,
+                    166
+                  ]
+                ],
+                "text": "59-MA",
+                "confidence": 0.8266509879332744
+              },
+              {
+                "bbox": [
+                  [
+                    42,
+                    135
+                  ],
+                  [
+                    292,
+                    135
+                  ],
+                  [
+                    292,
+                    255
+                  ],
+                  [
+                    42,
+                    255
+                  ]
+                ],
+                "text": "098.57",
+                "confidence": 0.7643057418097685
+              }
+            ]
+          }
+        ],
+        "split_row": null,
+        "split_status": "rejected_no_reliable_gap"
+      },
+      "final": "59MA-098.57",
+      "completed": true,
+      "execution": {
+        "version": "after",
+        "case": "014-0",
+        "exit_code": 0,
+        "seconds": 7.89
+      }
+    }
+  },
+  {
+    "case": "001-0",
+    "image": "img_0007",
+    "purpose": "previous nonempty one-line control",
+    "before": {
+      "version": "before",
+      "case": "001-0",
+      "calls": [
+        {
+          "input_shape": [
+            298,
+            996
+          ],
+          "started": true,
+          "completed": true,
+          "raw": [
+            {
+              "bbox": [
+                [
+                  149,
+                  36
+                ],
+                [
+                  840,
+                  36
+                ],
+                [
+                  840,
+                  231
+                ],
+                [
+                  149,
+                  231
+                ]
+              ],
+              "text": "51KM164.95",
+              "confidence": 0.3624281375245191
+            }
+          ]
+        }
+      ],
+      "final": "51KM-164.95",
+      "completed": true,
+      "execution": {
+        "version": "before",
+        "case": "001-0",
+        "exit_code": 0,
+        "seconds": 8.39
+      }
+    },
+    "after": {
+      "version": "after",
+      "case": "001-0",
+      "calls": [
+        {
+          "input_shape": [
+            298,
+            996
+          ],
+          "started": true,
+          "completed": true,
+          "raw": [
+            {
+              "bbox": [
+                [
+                  149,
+                  36
+                ],
+                [
+                  840,
+                  36
+                ],
+                [
+                  840,
+                  231
+                ],
+                [
+                  149,
+                  231
+                ]
+              ],
+              "text": "51KM164.95",
+              "confidence": 0.3624281375245191
+            }
+          ]
+        }
+      ],
+      "details": {
+        "raw_lines": [
+          "51KM164.95"
+        ],
+        "normalized_lines": [
+          "51KM16495"
+        ],
+        "corrected_lines": [
+          "51KM16495"
+        ],
+        "corrections": [],
+        "formatted_text": "51KM-164.95",
+        "plate_number": "51KM-164.95",
+        "format_status": "structured",
+        "text_verified": false,
+        "ocr_calls": [
+          {
+            "label": "whole",
+            "input_shape": [
+              298,
+              996
+            ],
+            "results": [
+              {
+                "bbox": [
+                  [
+                    149,
+                    36
+                  ],
+                  [
+                    840,
+                    36
+                  ],
+                  [
+                    840,
+                    231
+                  ],
+                  [
+                    149,
+                    231
+                  ]
+                ],
+                "text": "51KM164.95",
+                "confidence": 0.3624281375245191
+              }
+            ]
+          }
+        ],
+        "split_row": null,
+        "split_status": "not_requested"
+      },
+      "final": "51KM-164.95",
+      "completed": true,
+      "execution": {
+        "version": "after",
+        "case": "001-0",
+        "exit_code": 0,
+        "seconds": 8.61
+      }
+    }
+  },
+  {
+    "case": "003-0",
+    "image": "img_0028",
+    "purpose": "previous empty control",
+    "before": {
+      "version": "before",
+      "case": "003-0",
+      "calls": [
+        {
+          "input_shape": [
+            469,
+            1506
+          ],
+          "started": true,
+          "completed": true,
+          "raw": []
+        },
+        {
+          "input_shape": [
+            465,
+            1506
+          ],
+          "started": true,
+          "completed": true,
+          "raw": []
+        }
+      ],
+      "final": "",
+      "completed": true,
+      "execution": {
+        "version": "before",
+        "case": "003-0",
+        "attempt": "retry1",
+        "result_file": "runs/before-003-0-retry1.json",
+        "exit_code": 0,
+        "seconds": 11.34
+      }
+    },
+    "after": {
+      "version": "after",
+      "case": "003-0",
+      "calls": [
+        {
+          "input_shape": [
+            934,
+            1506
+          ],
+          "started": true,
+          "completed": true,
+          "raw": []
+        }
+      ],
+      "details": {
+        "raw_lines": [],
+        "normalized_lines": [],
+        "corrected_lines": [],
+        "corrections": [],
+        "formatted_text": "",
+        "plate_number": "",
+        "format_status": "empty",
+        "text_verified": false,
+        "ocr_calls": [
+          {
+            "label": "whole",
+            "input_shape": [
+              934,
+              1506
+            ],
+            "results": []
+          }
+        ],
+        "split_row": null,
+        "split_status": "rejected_no_reliable_gap"
+      },
+      "final": "",
+      "completed": true,
+      "execution": {
+        "version": "after",
+        "case": "003-0",
+        "exit_code": 0,
+        "seconds": 12.3
+      }
+    }
+  },
+  {
+    "case": "027-0",
+    "image": "img_0226",
+    "purpose": "partial characters coerced by mappings",
+    "before": {
+      "version": "before",
+      "case": "027-0",
+      "calls": [
+        {
+          "input_shape": [
+            785,
+            1232
+          ],
+          "started": true,
+          "completed": true,
+          "raw": [
+            {
+              "bbox": [
+                [
+                  242.03792769639495,
+                  374.0934312516142
+                ],
+                [
+                  353.96599519024926,
+                  292.97472081323315
+                ],
+                [
+                  375.96207230360505,
+                  332.9065687483858
+                ],
+                [
+                  264.03400480975074,
+                  415.02527918676685
+                ]
+              ],
+              "text": "T21",
+              "confidence": 0.07924185798748909
+            },
+            {
+              "bbox": [
+                [
+                  453.4760927396665,
+                  508.2141391094998
+                ],
+                [
+                  733.2562970001128,
+                  287.71851499943597
+                ],
+                [
+                  916.5239072603334,
+                  554.7858608905002
+                ],
+                [
+                  635.7437029998872,
+                  775.2814850005641
+                ]
+              ],
+              "text": "79",
+              "confidence": 0.9716825787918807
+            }
+          ]
+        },
+        {
+          "input_shape": [
+            723,
+            1232
+          ],
+          "started": true,
+          "completed": true,
+          "raw": [
+            {
+              "bbox": [
+                [
+                  356,
+                  0
+                ],
+                [
+                  598,
+                  0
+                ],
+                [
+                  598,
+                  126
+                ],
+                [
+                  356,
+                  126
+                ]
+              ],
+              "text": "Y",
+              "confidence": 0.05260851792242249
+            },
+            {
+              "bbox": [
+                [
+                  438.69240809005015,
+                  187.0783989237369
+                ],
+                [
+                  777.2762912649537,
+                  -130.4098416817768
+                ],
+                [
+                  938.3075919099499,
+                  107.9216010762631
+                ],
+                [
+                  600.7237087350463,
+                  426.4098416817768
+                ]
+              ],
+              "text": "389",
+              "confidence": 0.5599133514948007
+            }
+          ]
+        }
+      ],
+      "final": "72179 389",
+      "completed": true,
+      "execution": {
+        "version": "before",
+        "case": "027-0",
+        "exit_code": 0,
+        "seconds": 15.09
+      }
+    },
+    "after": {
+      "version": "after",
+      "case": "027-0",
+      "calls": [
+        {
+          "input_shape": [
+            1508,
+            1232
+          ],
+          "started": true
+        }
+      ],
+      "execution": {
+        "version": "after",
+        "case": "027-0",
+        "attempt": "retry1",
+        "result_file": "runs/after-027-0-retry1.json",
+        "exit_code": 3221225477,
+        "seconds": 12.34
+      }
+    }
+  },
+  {
+    "case": "057-0",
+    "image": "img_0605",
+    "purpose": "crop coverage and empty OCR",
+    "before": {
+      "version": "before",
+      "case": "057-0",
+      "calls": [
+        {
+          "input_shape": [
+            14,
+            46
+          ],
+          "started": true,
+          "completed": true,
+          "raw": []
+        },
+        {
+          "input_shape": [
+            18,
+            46
+          ],
+          "started": true,
+          "completed": true,
+          "raw": []
+        }
+      ],
+      "final": "",
+      "completed": true,
+      "execution": {
+        "version": "before",
+        "case": "057-0",
+        "exit_code": 0,
+        "seconds": 7.22
+      }
+    },
+    "after": {
+      "version": "after",
+      "case": "057-0",
+      "calls": [
+        {
+          "input_shape": [
+            32,
+            46
+          ],
+          "started": true,
+          "completed": true,
+          "raw": []
+        }
+      ],
+      "details": {
+        "raw_lines": [],
+        "normalized_lines": [],
+        "corrected_lines": [],
+        "corrections": [],
+        "formatted_text": "",
+        "plate_number": "",
+        "format_status": "empty",
+        "text_verified": false,
+        "ocr_calls": [
+          {
+            "label": "whole",
+            "input_shape": [
+              32,
+              46
+            ],
+            "results": []
+          }
+        ],
+        "split_row": null,
+        "split_status": "rejected_no_reliable_gap"
+      },
+      "final": "",
+      "completed": true,
+      "execution": {
+        "version": "after",
+        "case": "057-0",
+        "exit_code": 0,
+        "seconds": 7.94
+      }
+    }
+  },
+  {
+    "case": "005-0",
+    "image": "img_0033",
+    "purpose": "previous native operational failure",
+    "before": {
+      "version": "before",
+      "case": "005-0",
+      "calls": [
+        {
+          "input_shape": [
+            1599,
+            2652
+          ],
+          "started": true
+        }
+      ],
+      "execution": {
+        "version": "before",
+        "case": "005-0",
+        "exit_code": 3221225477,
+        "seconds": 11.56
+      }
+    },
+    "after": {
+      "version": "after",
+      "case": "005-0",
+      "calls": [
+        {
+          "input_shape": [
+            2412,
+            2652
+          ],
+          "started": true
+        }
+      ],
+      "details": {
+        "raw_lines": [],
+        "normalized_lines": [],
+        "corrected_lines": [],
+        "corrections": [],
+        "formatted_text": "",
+        "plate_number": "",
+        "format_status": "empty",
+        "text_verified": false,
+        "ocr_calls": [],
+        "split_row": null,
+        "split_status": "rejected_no_reliable_gap",
+        "error": "[enforce fail at alloc_cpu.cpp:117] data. DefaultCPUAllocator: not enough memory: you tried to allocate 1530920960 bytes."
+      },
+      "final": "",
+      "completed": true,
+      "execution": {
+        "version": "after",
+        "case": "005-0",
+        "exit_code": 0,
+        "seconds": 8.94
+      }
+    }
+  },
+  {
+    "case": "052-1",
+    "image": "img_0559",
+    "purpose": "additional previously nonempty two-line control",
+    "before": {
+      "version": "before",
+      "case": "052-1",
+      "calls": [
+        {
+          "input_shape": [
+            56,
+            164
+          ],
+          "started": true,
+          "completed": true,
+          "raw": [
+            {
+              "bbox": [
+                [
+                  38,
+                  12
+                ],
+                [
+                  128,
+                  12
+                ],
+                [
+                  128,
+                  56
+                ],
+                [
+                  38,
+                  56
+                ]
+              ],
+              "text": "59-CL",
+              "confidence": 0.5068236165988503
+            }
+          ]
+        },
+        {
+          "input_shape": [
+            60,
+            164
+          ],
+          "started": true,
+          "completed": true,
+          "raw": [
+            {
+              "bbox": [
+                [
+                  22,
+                  0
+                ],
+                [
+                  130,
+                  0
+                ],
+                [
+                  130,
+                  44
+                ],
+                [
+                  22,
+                  44
+                ]
+              ],
+              "text": "05478",
+              "confidence": 0.9742200490740524
+            }
+          ]
+        }
+      ],
+      "final": "59CL-054.78",
+      "completed": true,
+      "execution": {
+        "version": "before",
+        "case": "052-1",
+        "attempt": "initial",
+        "result_file": "runs/before-052-1.json",
+        "exit_code": 0,
+        "seconds": 7.67
+      }
+    },
+    "after": {
+      "version": "after",
+      "case": "052-1",
+      "calls": [
+        {
+          "input_shape": [
+            116,
+            164
+          ],
+          "started": true,
+          "completed": true,
+          "raw": [
+            {
+              "bbox": [
+                [
+                  36,
+                  12
+                ],
+                [
+                  128,
+                  12
+                ],
+                [
+                  128,
+                  60
+                ],
+                [
+                  36,
+                  60
+                ]
+              ],
+              "text": "59-CL",
+              "confidence": 0.6468095651532404
+            },
+            {
+              "bbox": [
+                [
+                  22,
+                  50
+                ],
+                [
+                  130,
+                  50
+                ],
+                [
+                  130,
+                  100
+                ],
+                [
+                  22,
+                  100
+                ]
+              ],
+              "text": "054.78",
+              "confidence": 0.605189807144254
+            }
+          ]
+        }
+      ],
+      "details": {
+        "raw_lines": [
+          "59-CL",
+          "054.78"
+        ],
+        "normalized_lines": [
+          "59CL",
+          "05478"
+        ],
+        "corrected_lines": [
+          "59CL",
+          "05478"
+        ],
+        "corrections": [],
+        "formatted_text": "59CL-054.78",
+        "plate_number": "59CL-054.78",
+        "format_status": "structured",
+        "text_verified": false,
+        "ocr_calls": [
+          {
+            "label": "whole",
+            "input_shape": [
+              116,
+              164
+            ],
+            "results": [
+              {
+                "bbox": [
+                  [
+                    36,
+                    12
+                  ],
+                  [
+                    128,
+                    12
+                  ],
+                  [
+                    128,
+                    60
+                  ],
+                  [
+                    36,
+                    60
+                  ]
+                ],
+                "text": "59-CL",
+                "confidence": 0.6468095651532404
+              },
+              {
+                "bbox": [
+                  [
+                    22,
+                    50
+                  ],
+                  [
+                    130,
+                    50
+                  ],
+                  [
+                    130,
+                    100
+                  ],
+                  [
+                    22,
+                    100
+                  ]
+                ],
+                "text": "054.78",
+                "confidence": 0.605189807144254
+              }
+            ]
+          }
+        ],
+        "split_row": null,
+        "split_status": "rejected_no_reliable_gap"
+      },
+      "final": "59CL-054.78",
+      "completed": true,
+      "execution": {
+        "version": "after",
+        "case": "052-1",
+        "attempt": "initial",
+        "result_file": "runs/after-052-1.json",
+        "exit_code": 0,
+        "seconds": 7.28
+      }
+    }
+  },
+  {
+    "case": "sample-1",
+    "image": "assets/samples/1.jpg",
+    "purpose": "observed audit failure",
+    "before": {
+      "version": "before",
+      "case": "sample-1",
+      "calls": [
+        {
+          "input_shape": [
+            517,
+            1172
+          ],
+          "started": true,
+          "completed": true,
+          "raw": [
+            {
+              "bbox": [
+                [
+                  240,
+                  148
+                ],
+                [
+                  1104,
+                  148
+                ],
+                [
+                  1104,
+                  508
+                ],
+                [
+                  240,
+                  508
+                ]
+              ],
+              "text": "68-61",
+              "confidence": 0.4950464205931239
+            }
+          ]
+        },
+        {
+          "input_shape": [
+            347,
+            1172
+          ],
+          "started": true,
+          "completed": true,
+          "raw": [
+            {
+              "bbox": [
+                [
+                  134,
+                  26
+                ],
+                [
+                  799,
+                  26
+                ],
+                [
+                  799,
+                  347
+                ],
+                [
+                  134,
+                  347
+                ]
+              ],
+              "text": "G6Q",
+              "confidence": 0.24393355778205203
+            }
+          ]
+        }
+      ],
+      "final": "68-G1 660",
+      "completed": true,
+      "execution": {
+        "version": "before",
+        "case": "sample-1",
+        "exit_code": 0,
+        "seconds": 10.56
+      }
+    },
+    "after": {
+      "version": "after",
+      "case": "sample-1",
+      "calls": [
+        {
+          "input_shape": [
+            537,
+            1172
+          ],
+          "started": true,
+          "completed": true,
+          "raw": [
+            {
+              "bbox": [
+                [
+                  240,
+                  145
+                ],
+                [
+                  1129,
+                  145
+                ],
+                [
+                  1129,
+                  505
+                ],
+                [
+                  240,
+                  505
+                ]
+              ],
+              "text": "68-61",
+              "confidence": 0.5508899966921849
+            }
+          ]
+        },
+        {
+          "input_shape": [
+            327,
+            1172
+          ],
+          "started": true,
+          "completed": true,
+          "raw": [
+            {
+              "bbox": [
+                [
+                  150,
+                  14
+                ],
+                [
+                  650,
+                  14
+                ],
+                [
+                  650,
+                  284
+                ],
+                [
+                  150,
+                  284
+                ]
+              ],
+              "text": "FAC",
+              "confidence": 0.18330205888248616
+            }
+          ]
+        }
+      ],
+      "details": {
+        "raw_lines": [
+          "68-61",
+          "FAC"
+        ],
+        "normalized_lines": [
+          "6861",
+          "FAC"
+        ],
+        "corrected_lines": [
+          "6861",
+          "FAC"
+        ],
+        "corrections": [],
+        "formatted_text": "6861 FAC",
+        "plate_number": "",
+        "format_status": "unrecognized",
+        "text_verified": false,
+        "reason": "incomplete_or_unsupported_structure",
+        "ocr_calls": [
+          {
+            "label": "top",
+            "input_shape": [
+              537,
+              1172
+            ],
+            "results": [
+              {
+                "bbox": [
+                  [
+                    240,
+                    145
+                  ],
+                  [
+                    1129,
+                    145
+                  ],
+                  [
+                    1129,
+                    505
+                  ],
+                  [
+                    240,
+                    505
+                  ]
+                ],
+                "text": "68-61",
+                "confidence": 0.5508899966921849
+              }
+            ]
+          },
+          {
+            "label": "bottom",
+            "input_shape": [
+              327,
+              1172
+            ],
+            "results": [
+              {
+                "bbox": [
+                  [
+                    150,
+                    14
+                  ],
+                  [
+                    650,
+                    14
+                  ],
+                  [
+                    650,
+                    284
+                  ],
+                  [
+                    150,
+                    284
+                  ]
+                ],
+                "text": "FAC",
+                "confidence": 0.18330205888248616
+              }
+            ]
+          }
+        ],
+        "split_row": 537,
+        "split_status": "accepted_gap"
+      },
+      "final": "",
+      "completed": true,
+      "execution": {
+        "version": "after",
+        "case": "sample-1",
+        "exit_code": 0,
+        "seconds": 12.64
+      }
+    }
+  }
+]
